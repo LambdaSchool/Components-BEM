@@ -1,3 +1,9 @@
 .Section {
     border: 2px solid black;
+    display: flex;
+    align-content: baseline;
+    
+}
+.Section__dropdown {
+    border: 1px solid black;
 }
