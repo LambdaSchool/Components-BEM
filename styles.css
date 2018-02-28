@@ -6,3 +6,17 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Section {
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.Box {
+	display: inline-block;
+}
+
+.Section__box {
+	display: inline-block;
+}
