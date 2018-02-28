@@ -18,6 +18,7 @@ body {
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
+	order: 1px solid red;
 }
 
 .Box__header {
@@ -31,17 +32,19 @@ body {
 	display: flex;
 	border-bottom: 1px solid black;
 	border-bottom: 1px solid black;
-
 }
 
-.Box {
-	
-}
  
 .Box__description {
 	text-align: left;
 	padding: 10px 15px;
 }
+
+.Section__dropdown {
+	border: 1px solid black;
+	
+}
+
 
 
 
