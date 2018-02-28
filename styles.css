@@ -6,3 +6,24 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Section{
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+
+.Section--border{
+	border: 1px solid black;
+}
+
+.Section__text{
+	font-size: 62px;
+	
+}
+
+.Box__header{
+}
+
+.Dropdown{
+}
