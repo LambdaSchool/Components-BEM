@@ -1,15 +1,13 @@
-class Section {
+class Section__dropdown {
     constructor(element) {
         this.element = element;
 
-        this.element.addEventListener('click', () => {
-            this.element.classList.add('Section');
+        this.element.addEventListener('click',() => {
+            this.element.classList.add('Section__subDropdown')
         });
     }
 }
 
-let blocks = document.getElementsByClassName("Section__dropdown");
-blocks = Array.from(blocks).map(block => new Block(block));
+let dropdown = document.getElementsByClassName('Section__dropdown');
 
-
-console.log(blocks);
+dropdown = 

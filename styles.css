@@ -41,8 +41,12 @@ body {
 }
 
 .Section__dropdown {
-	border: 1px solid black;
-	
+
+}
+
+.Section__subDropdown {
+	height: 200px;
+	width: 200px;
 }
 
 
