@@ -8,15 +8,40 @@ body {
 }
 
 .Section {
-	font-weight: bold;
+	display: flex;
 	text-align: center;
 	border: 1px solid black;
 }
 
-.Box {
-	display: inline-block;
+
+.Section__header {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
 }
 
-.Section__box {
-	display: inline-block;
+.Box__header {
+	font-weight: bold;
+	padding: 15px 15px;
+	text-align: left;
+	
 }
+
+.Section__outside {
+	display: flex;
+	border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+.Box {
+	
+}
+ 
+.Box__description {
+	text-align: left;
+	padding: 10px 15px;
+}
+
+
+
