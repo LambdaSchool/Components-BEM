@@ -1,0 +1,13 @@
+.drop_down {
+	border:2px solid black;
+	font-size:1rem;
+	width:20%;
+	height:70px;
+	display:inline;
+
+}
+
+@media (max-width: 500px){
+	.drop_down {
+	}
+}
