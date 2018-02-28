@@ -12,10 +12,10 @@
 	position: relative;
 }
 
-.Section__header { 
-  text-align: center; 
-  font-size: 20px; 
-  font-weight: bold; 
+.Section__header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .Section--bordered {
