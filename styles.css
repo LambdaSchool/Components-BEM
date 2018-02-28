@@ -1,8 +1,13 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
+@import './components/Dropdown/Dropdown.css';
 
 body {
 	box-sizing: border-box;
 	min-width: 300px;
 	margin: 0;
+}
+
+h1 { 
+	font-size: 36px;
 }
