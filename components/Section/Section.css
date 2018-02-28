@@ -11,9 +11,10 @@
  display: flex;
  justify-content: space-between;
  width: 100%;
+ padding:10px;
 }
 
-.Section__dropdown {
+.Dropdown {
   border: 2px solid black;
   font-size: 1.2rem;
   padding: 15px 25px;
@@ -22,8 +23,17 @@
 .Section__header {
   display: flex;
   justify-content: center;
-  width: calc(100% - 73px);
   font-weight: bold;
   font-size: 1.8rem;
+  align-self: center;
 }
 
+.Section__invisible {
+  width:105.33px;
+  opacity:0;
+}
+
+.Section__bottom {
+  display:flex;
+  flex-wrap:wrap;
+}
