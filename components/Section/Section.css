@@ -1,0 +1,15 @@
+.Section {
+  display: flex;
+  max-width: 1000px;
+  border: 5px solid blue;
+}
+
+.Section__header {
+  border: 5px solid red;
+  text-align: center;
+  width: 100%;
+}
+
+.Section__content {
+  border: 5px solid green;
+}
