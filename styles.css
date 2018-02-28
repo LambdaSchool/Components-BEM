@@ -7,23 +7,62 @@ body {
 	margin: 0;
 }
 
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container > * {
+	flex:1 100%;
+}
+
 .Section{
 	display: flex;
-	flex-wrap: nowrap;
-
+	/* flex-wrap:nowrap; */
+	/* justify-content:center; */
+	padding: 20px;
 }
 
 .Section--border{
-	border: 1px solid black;
-}
-
-.Section__text{
-	font-size: 62px;
-	
+	border: 2px solid black;
 }
 
 .Box__header{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	
+}
+.Section__text{
+	font-size: 62px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.Dropdown__btn{
+	padding: 10px;
 }
 
 .Dropdown{
+	display: inline-block;
+	border: 2px solid black;	
+	/* justify-self: flex-start; */
+}
+.Dropdown__content{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	background-color: white;
+	border: 2px solid black;
+	padding: 10px;
+	position: absolute;
+}
+
+@media (min-width:600px){
+.Section--full{
+	flex:1;
+	}
 }
