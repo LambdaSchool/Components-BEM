@@ -12,6 +12,12 @@
 	position: relative;
 }
 
+.Section__header { 
+  text-align: center; 
+  font-size: 20px; 
+  font-weight: bold; 
+}
+
 .Section--bordered {
     border: 2px solid black;
 }
