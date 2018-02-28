@@ -8,8 +8,19 @@ body {
 }
 
 
-.container {
+@media screen and (min-width:600px) {
+	.container {
 	display: flex;
 	flex-direction: row;
+	}
+}
+
+.containerHeader {
+	display: flex;
+	align-items: center;
+}
+
+button {
+	margin-right: 35%;
 }
 
