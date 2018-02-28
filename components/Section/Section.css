@@ -1,9 +1,11 @@
 .Section {
     border: 2px solid black;
-    display: flex;
-    align-content: baseline;
-    
+    text-align: center;
 }
 .Section__dropdown {
+    float: left;
     border: 1px solid black;
+}
+.Section__header {
+
 }
