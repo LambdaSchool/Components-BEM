@@ -18,7 +18,7 @@
     width: 90px;
     text-align: center;
     background-color: white;
-    /*display: none;*/
+    display: none;
 }
 
 .Dropdown__menu--item {
