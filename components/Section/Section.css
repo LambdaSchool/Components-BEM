@@ -1,0 +1,29 @@
+
+
+.Section {
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  border: 2px solid black;
+}
+
+.Section__top {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.Section__dropdown {
+  border: 2px solid black;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+}
+
+.Section__header {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 73px);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
