@@ -8,6 +8,7 @@
 .Section--header {
     align-items: center;
     display: flex;
+    width: 100%;
 }
 
 .Section__header {
@@ -17,10 +18,38 @@
     align-items: center;
 }
 
-
-
+/* Dropdown */
 .Dropdown__header {
     border:2px solid black;
-    padding: 0 1.5%;
-    
+    padding: 15px 10px;
+    font-size: 16px;
 }
+
+.Section__header h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.Dropdown__header p {
+    margin: 0;
+}
+
+.Dropdown__nav nav{
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    display: none;
+}
+.Dropdown__nav nav a{
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.Dropdown__nav nav a:hover{
+    margin: 5px;
+    text-decoration: underline;
+    color: blue;
+}
+

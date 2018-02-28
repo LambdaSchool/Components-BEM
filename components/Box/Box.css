@@ -1,5 +1,9 @@
-.Box {
-    border: 4px solid black;
+.Section--box {
     display: flex;
+}
 
+@media screen and (min-width: 600px){
+    .Section--box{
+        width: 43%;
+    }
 }
