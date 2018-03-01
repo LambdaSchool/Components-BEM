@@ -4,8 +4,10 @@
 
 .Section--border {
   border: 2px solid black;
+  width: 100%;
 }
 
 .Section__header {
   justify-content: center;
+  width: 100%;
 }

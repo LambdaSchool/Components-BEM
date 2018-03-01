@@ -2,7 +2,9 @@
     display: flex;
     /* padding: 1rem; */
     flex-direction: column;
+    position: absolute;
 }
+
 
 .Dropdown__content {
     display: none;
