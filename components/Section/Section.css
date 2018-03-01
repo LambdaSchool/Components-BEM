@@ -9,10 +9,12 @@
 }
 
 .dropdown__menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-self: flex-start;
 }
 
-
+.dropdown__menu--clicked {
+  display: flex;
+}
 
