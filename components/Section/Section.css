@@ -1,3 +1,5 @@
+
+
 .Section {
     display: flex;
     align-items:center; 
@@ -6,10 +8,10 @@
     border: solid black;
 }
 
-.Section__wrap {
+.Section__buttWrap {
     display: flex;
-    justify-content: flex-start ;
-    border: solid black;
+    flex-direction: column;
+    justify-content: space-between ;  
     width: 100%;
 }
 
@@ -29,18 +31,31 @@
     align-items: center;
     border: solid black;
     background-color: white;
+    padding: 5px 2% 5px 2%;
+    z-index: 1;
+    position: absolute;
     
 }
+
+
 
  .button--hidden {
     display: none;
 }
 
-.Section_header {
-    border: solid black;
+.Section__header {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
 }
 
 
 .Section__flexcon {
     display: flex;
+}
+
+@media (max-width: 600px) {
+    .Section__flexcon {
+        flex-direction: column;
+    } 
 }
