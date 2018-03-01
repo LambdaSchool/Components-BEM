@@ -20,6 +20,10 @@
   padding: 15px 25px;
 }
 
+.Dropdown__items {
+  display: none;
+}
+
 .Section__header {
   display: flex;
   justify-content: center;
@@ -36,4 +40,23 @@
 .Section__bottom {
   display:flex;
   flex-wrap:wrap;
+}
+
+.clickedList {
+  position: absolute;
+  background-color: white;
+  top: 100px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  
+}
+
+li a {
+  text-decoration: none;
+  margin-left: -30px;
+  
 }
