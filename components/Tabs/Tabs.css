@@ -1,3 +1,7 @@
+.Tabs {
+  align-self: flex-start;
+}
+
 .Tabs__item {
   display: none;
 }

@@ -7,8 +7,12 @@
     padding: 0 20px;
 }
 
-.Section--middle {
+.Section--middle, .Section--bottom {
     border-top: 0;
+}
+
+.Section--bottom {
+    flex-direction: column;
 }
 
 @media (min-width: 600px) {
