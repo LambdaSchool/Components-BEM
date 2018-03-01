@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Section {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.Dropdown {
+  display: flex;
+  align-self: flex-start; 
+}
+
+.Section__header {
+  justify-content: center;
+}
+
+.Box {
+  /* max-width: 400px; */
+  width: 100%;
+  border: 2px solid black;
+  padding: 1rem;
+}
+h2 {
+  margin-top: 0px;
+}
