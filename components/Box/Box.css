@@ -1,6 +1,6 @@
-.Box {
+.Section__Box--header{
 
-  border: 5px solid black;
+  border: 2px solid black;
   color: brown;
   margin: 15px;
 }
@@ -15,18 +15,21 @@
     text-align: center;
 }
 
-.Dropdown .Dropdown--list {
-    display: flex;
+
+.Dropdown--btn {
+    border: 2px solid black;
+}
+
+.Dropdown--list {
+    display: none;
     flex-direction: column;
     color: red;
-    height: 400px;
+    height: 600px;
 }
 
 .selected {
     /* display: none; */
-    background-color: red;
+    display: block;
+    background-color: yellow;
 }
 
-.Dropdown--hidden {
-    display: none;
-}

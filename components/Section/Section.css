@@ -15,3 +15,7 @@
 .Section__content {
   border: 5px solid green;
 }
+
+.Section__Dropdown Dropdown--list {
+  display: none;
+}

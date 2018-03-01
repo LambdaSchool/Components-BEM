@@ -5,15 +5,17 @@ class Dropdown {
       console.log(this.element)
       //msg = <ul>
       
+
       this.element.addEventListener("click", () => {
-      this.element.classList.toggle("selected");
+      topDropdownList.classList.toggle("selected");
+
+      //this.element.classList.toggle("selected");
+
+      //topDropdownList.classList.toggle("selected");
       //this.element.innerHTML = '<div class="Box"><ul><li>Lambda</li><li>Google</li><li>MDN</li></ul><div>';
 
 
       });
-
-      
-
 
 
       //this.element.addEventListener("click", () => {
@@ -23,9 +25,14 @@ class Dropdown {
       //});
   }
 }
-  let topDropdown = document.getElementsByClassName("Dropdown");
+  let topDropdown = document.getElementsByClassName("Dropdown--btn");
   console.log(topDropdown);
   topDropdown = new Dropdown(topDropdown[0]);
+
+  let topDropdownList = document.getElementsByClassName("Dropdown--list")[0];
+  console.log(topDropdownList);
+  
+  
   
   //topDropdown = 
   
