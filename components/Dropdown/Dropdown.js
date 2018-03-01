@@ -3,7 +3,7 @@ class Dropdown {
       this.element = element;
   
       this.element.parentNode.addEventListener("click", () => {
-        this.element.classList.add("Dropdown__menu--reveal");
+        this.element.classList.toggle("Dropdown__menu--reveal");
       });
     }
   }
