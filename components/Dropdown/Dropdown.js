@@ -1,17 +1,17 @@
 class Dropdown {
     constructor(element) {
         this.element = element;
-        this.element.addEventListener('click', () => {
-            this.element.classList.add('Dropdown-list');
+        this.button = this.element.querySelector('.Dropdown__button');
+        this.button.addEventListener('click', () => {
+            this.toggleContent();
         });
+    }
+    toggleContent() {
+        this.element.classList.toggle('Dropdown--active');
     }
 }
 
-
-
-let dropdown = document.getElementsByClassName('Dropdown');
-dropdown = Array.from(Dropdown).map(item => {
-    return new Dropdown(item);
+let dropdowns = document.querySelectorAll('.Dropdown');
+dropdowns = Array.from(dropdowns).map(dropdown => {
+    return new Dropdown(dropdown);
 });
-
-console.log(dropdown);
