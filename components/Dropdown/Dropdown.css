@@ -1,24 +1,23 @@
-.Dropdown {
-    border: black solid 5px;
-    height: 40px;
-    width: 85px;
-    margin: 10px;
+.Dropdown {  
     display: flex;
-    align-items: center;
     flex-flow: column;
 }
-.Dropwdown__text {
+.Dropdown__text {
+    border: black solid 5px;
     padding: 5px;
+}
+.Dropdown__link--gutter {
+    padding: 3px 15px;
+    margin-bottom: 8px;
 }
 .Dropdown__menu {
     border: 3px solid black;
-    margin-top: 11px;
-    padding-top: 1px;
+    background-color: beige;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    margin-top: 5px;
 }
 #Dropdown__hide {
     display: none;
-}
-
-.Dropdown__show {
-    display: block;
 }
