@@ -80,7 +80,6 @@ body {
 	width: 95%;
 	display: flex;
 	font-weight: normal;
-	
 }
 
 .Box__header {
@@ -93,8 +92,9 @@ body {
 
 
 @media (max-width: 400px) {
-	.Section__outside {
-		display: block;
+
+	.Section--half {
+		width: 98%;
 	}
 }  
 
