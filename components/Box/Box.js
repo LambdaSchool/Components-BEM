@@ -6,7 +6,6 @@ class Dropdown {
       dropdownMenus[0].classList.add('top__dropdown-menu');
     });
     this.element.addEventListener('mouseout', () => {
-      console.log(dropdownMenus[0]);
       dropdownMenus[0].classList.remove('top__dropdown-menu');
     });
   }
