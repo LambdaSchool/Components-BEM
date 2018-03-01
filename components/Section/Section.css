@@ -5,6 +5,8 @@
 }
 
 .Section__header {
+  display: flex;
+  justify-content: center;
   border: 5px solid red;
   text-align: center;
   width: 100%;
