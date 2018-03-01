@@ -1,12 +1,27 @@
 .Header {
-    border-style: solid;
-
+    border: solid;
+    max-width: 100%;
 }
 
 .Header_button {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .Header_title {
+    text-align: center;
+}
 
+.Dropdown {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    z-index: -5;
+    display: none;
+}
+
+.Dropdown--Show {
+    display: flex;
 }
