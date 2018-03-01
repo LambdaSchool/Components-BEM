@@ -2,7 +2,21 @@
 @import './components/Box/Box.css';
 
 body {
-	box-sizing: border-box;
-	min-width: 300px;
-	margin: 0;
+    box-sizing: border-box;
+    min-width: 300px;
+    margin: 0;
+}
+
+.blocks {
+    display: flex;
+}
+
+.link--black--with--box {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.component--hidden {
+    display: none;
 }
