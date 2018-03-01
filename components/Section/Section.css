@@ -1,0 +1,25 @@
+.Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid black;
+    padding: 0 20px;
+}
+
+.Section--middle, .Section--bottom {
+    border-top: 0;
+}
+
+.Section--bottom {
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    .Section--middle {
+        flex: 2;
+    }
+    .Section--desktop {
+        display: flex;
+    }
+}
