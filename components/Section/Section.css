@@ -1,0 +1,36 @@
+.top {
+  border: solid black;
+  max-width: 100%;
+}
+
+.top__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+}
+.bottom p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bottom h3 {
+  padding-left: 15px;
+}
+
+.bottom__left {
+  border: solid black;
+}
+
+.bottom__right {
+  border: solid black;
+}
+
+@media (max-width: 400px) {
+  .bottom {
+    flex-direction: column;
+  }
+}
