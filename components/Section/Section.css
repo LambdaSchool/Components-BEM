@@ -1,22 +1,29 @@
-header {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
+.Section {
+    box-sizing: border-box;
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    position: relative;
 }
-
-.main {
-    display: flex;
-    justify-content: space-around;
+.Section--bordered {
+    border: 2.5px solid black;
+    border-top: none;
 }
-
-.text {
-    border: 2px solid black;
+.Section--bordered:first-of-type {
+    border-top: 2.5px solid black;
 }
-
-.main-text {
-    margin: 10px;
+.Section__header {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
 }
-
-.nav {
-    
+@media (min-width: 600px) {
+    .Section--half {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 50%;
+        padding: 20px;
+    }
 }
