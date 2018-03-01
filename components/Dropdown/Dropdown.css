@@ -1,0 +1,30 @@
+.Dropdown{
+	position: absolute;
+	display: inline-block;
+	border: 2px solid black;	
+	/* justify-self: flex-start; */
+}
+
+.Dropdown__btn{
+	padding: 10px;
+}
+
+.Dropdown__content{
+	margin-top: 30px;
+	flex-direction: column;
+    z-index: 1;
+	background-color: white;
+	border: 2px solid black;
+	padding: 10px;
+	position: absolute;
+	width: 65px;
+	display: none;
+}
+
+.Dropdown__links {
+	margin-bottom: 10px;
+}
+
+.Dropdown--display .Dropdown__content {
+	display: flex;
+}
