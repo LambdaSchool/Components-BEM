@@ -5,6 +5,10 @@
     justify-content: space-between;
 }
 
+.Section__box {
+
+}
+
 .Section__nav {
     width: 60%;
     display: flex;
