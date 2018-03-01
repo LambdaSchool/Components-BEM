@@ -1,6 +1,4 @@
-.Box {
-    border: 4px solid black;
-    display: flex;
+.Box__header {
     font-weight: bold;
-    padding: 10px 0;
+    padding: 10px;
 }
