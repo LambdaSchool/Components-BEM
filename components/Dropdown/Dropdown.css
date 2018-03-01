@@ -1,0 +1,24 @@
+.Dropdown {
+    border: black solid 5px;
+    height: 40px;
+    width: 85px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.Dropwdown__text {
+    padding: 5px;
+}
+.Dropdown__menu {
+    border: 3px solid black;
+    margin-top: 11px;
+    padding-top: 1px;
+}
+.Dropdown__hide {
+    display: none;
+}
+
+.Dropdown__show {
+    display: block;
+}
