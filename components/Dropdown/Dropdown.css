@@ -1,0 +1,10 @@
+.Dropdown {
+    display: flex;
+    align-self: flex-start;
+    padding: 1rem;
+    border: 2px solid black;
+  }
+
+.Dropdown-list {
+    display: none;
+}
