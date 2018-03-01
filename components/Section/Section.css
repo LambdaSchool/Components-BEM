@@ -1,0 +1,13 @@
+.Section {
+    border: solid 2px black;
+    width: 50%;
+    clear: left;
+}
+
+.Section__header {
+    margin-left: 20px;
+}
+
+.Section__content {
+    margin: 20px;
+}
