@@ -1,8 +1,6 @@
 .Dropdown {
     display: flex;
-    align-self: flex-start;
-    padding: 1rem;
-    border: 2px solid black;
+    /* padding: 1rem; */
     flex-direction: column;
 }
 

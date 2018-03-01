@@ -1,9 +1,9 @@
 .Section {
-  border: 2px solid black;
   display: flex;
-  justify-content: center;
-  max-width: 800px;
-  width: 100%;
+}
+
+.Section--border {
+  border: 2px solid black;
 }
 
 .Section__header {
