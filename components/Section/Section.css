@@ -15,7 +15,15 @@
     text-justify: center;
     vertical-align: middle;
     padding: 10px;
-    margin: 90px 10px 10px 10px;;
+}
+
+.Dropdown__menu {
+    display: none;
+}
+
+.Dropdown__menu--clicked {
+    display: flex;
+    flex-direction: column;
 }
 
 .Content {
