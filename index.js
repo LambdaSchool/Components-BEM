@@ -8,17 +8,16 @@ class Button {
           if(drop.classList.contains("button--hidden")){
             drop.classList.remove("button--hidden");
           }else{
-           drop.classList.add("button--hidden"); 
+           drop.classList.add("button--hidden");
           }
         // drop.style.display = "none";
       });
     }
   }
-  
-  let collection2 = document.getElementsByClassName("Section__drop");
-  let collection = document.getElementsByClassName("Section__button");
-  let button = collection[0];
-  let drop = collection2[0];
+
+  let drop = document.getElementsByClassName("Section__drop")[0];
+  let button = document.getElementsByClassName("Section__button")[0];
+
    button = new Button(button);
-   
+
   console.log(button);
