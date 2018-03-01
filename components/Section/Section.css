@@ -1,0 +1,34 @@
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container > * {
+	flex: 1 100%;
+}
+
+.Section{
+	display: flex;
+	/* flex-wrap:nowrap; */
+	/* justify-content:center; */
+	padding: 20px;
+}
+
+.Section--border{
+	border: 2px solid black;
+}
+
+.Section__text{
+	font-size: 62px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+
+@media (min-width:600px){
+    .Section--full {
+        flex:1;
+        }
+    }
