@@ -1,50 +1,39 @@
 <!DOCTYPE html>
-<hml>
+<html>
 	<head>
 		<title>Introduction to the DOM</title>
 		<link rel="stylesheet" href="./styles.css">
 	</head>
 	<body>
-			<script defer="defer" src="./components/Section/Dropdown.js"></script>
+		<script defer="defer" src="./components/Section/Dropdown.js"></script>
 		<!-- SECTION 1 START-->
-		<section class="Section">
+		<div class="Section">
 			<!-- DROPDOWN -->
-			<!-- DROPDOWN -->
-            <!--div class="Section__dropdown"> Dropdown
-                <div class="Section__subDropdown">
-                    <aL>Lambda</a>
-                    <a>Google</a>
-                    <a>MDN</a>
-                </div>        
-            </div-->
-			<div class="Section__dropdown">
-				<button onclick="drop()" class="Section__dropbtn">Dropdown</button>
-				<div id="myDropdown" class="Section__dropdown-content">
+			<div class="Dropdown">
+				<button onclick="drop()" class="Dropdown__button">Dropdown</button>
+				<div id="myDropdown" class="Dropdown-content">
 					<a >Lambda</a>
 					<a >Google</a>
 					<a >MDN</a>
 				</div>
 			</div>
-			<h1 class="Section__header"> Header</h1>
-		</section>
-		<!-- SECTION 1 END -->
-
-	<section class="Section__outside">
+			<div class="Section__header"> Header</div>
+			</div>
+	
 		<!-- SECTION 2 START-->
-		<section class="Section">
+		<div class="Section Section--half">
 			<div class="Box">
-				<div class="Box__header">
+				<div class=" Box__header">
 					Placeholder
 				</div>
 				<div class="Box__description">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.
 				</div>
 			</div>
-		</section>
-		<!-- SECTION 2 END -->
+		</div>
 
 		<!--SECTION 3 START -->
-		<section class="Section">
+		<div class="Section Section--half">
 			<div class="Box">
 				<div class="Box__header">
 					Placeholder
@@ -53,8 +42,6 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.
 				</div>
 			</div>
-		</section>
-		<!-- SECTION 3 END -->
-	</section>
+		</div>
 	</body>
-</hml>
+</html>
