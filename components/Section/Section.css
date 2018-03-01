@@ -1,0 +1,20 @@
+.Section__Header {
+  display: flex;
+  flex-direction: column;
+  border: px solid black;
+}
+
+.Section__Header h1 {
+  align-self: center;
+}
+
+.dropdown__menu {
+  display: none;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.dropdown__menu--clicked {
+  display: flex;
+}
+
