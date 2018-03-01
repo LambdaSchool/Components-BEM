@@ -6,4 +6,39 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Block {
+    background-color: grey;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+  }
+  
+  .Block__header {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .Block__description-content {
+    color: white;
+  }
+
+  .Block--red{
+    background: red;
+  }
+
+  .Block--green{
+    background: green;
+  }
+
+  .Block--blue{
+    background: blue;
+  }
+
+  /* .Block */
+
+  .Block--hidden{
+    display: none;
+  }
 /*Brett Sullivan & Rachelle De Jesus Pestanas*\
