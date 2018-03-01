@@ -14,4 +14,5 @@ class Dropdown {
     }
 }
 const element = document.getElementsByClassName('Dropdown__header')[0];
+console.log(element);
 const dropdown = new Dropdown(element);
