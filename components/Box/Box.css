@@ -1,0 +1,26 @@
+.Box {
+  display: flex;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.Box .Box--content {
+  padding: 5px;
+  width: 50%;
+}
+
+.Box .Box__description-content {
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  .Box {
+    flex-direction: column;
+    width: 100%;
+    background: lightgoldenrodyellow;
+  }
+  .Box .Box--content {
+    padding: 5px;
+    width: 100%;
+  }
+}
