@@ -2,7 +2,7 @@
     box-sizing: border-box;
     display: inline-block;
     clear: both;
-    width: 100%;
+    width: 99.9%;
     margin: 0;
     padding: 20px;
     position: relative;
@@ -19,6 +19,7 @@
 @media (min-width: 400px) {
     .Section--split {
         display: inline-block;
-        width: 49%;
+        width: 50%;
+        margin: 0px -6px 0 0;
     }
 }
