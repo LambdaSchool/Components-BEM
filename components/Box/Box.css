@@ -16,11 +16,10 @@
 @media (max-width: 550px) {
   .Box {
     flex-direction: column;
-    width: 100%;
+    width: 99%;
     background: lightgoldenrodyellow;
   }
   .Box .Box--content {
-    padding: 5px;
     width: 100%;
   }
 }

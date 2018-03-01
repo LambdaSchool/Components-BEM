@@ -1,12 +1,11 @@
 .Dropdown {
   display: inline-block;
   margin: 5px;
-  /* position: absolute; */
 }
 
 .Dropdown__button {
   padding: 15px;
-  background-color: white;
+  background-color:lightseagreen;
   border: 2.5px solid black;
 }
 

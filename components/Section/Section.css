@@ -6,14 +6,15 @@
 
 .Section__header {
   text-align: center;
+  margin-top: 10px;
   width: 82%;
   font-size: 2rem;
   font-weight: bold;
-  background: lightblue;
 }
 
 .ourSection {
   display: flex;
+  width: 98%;
 }
 
 .Section--styles {
@@ -35,5 +36,8 @@
   width: 100%;
   background: lightcoral;
   flex-direction: column;
+  }
+  .ourSection {
+    width: 82%;
   }
 }
