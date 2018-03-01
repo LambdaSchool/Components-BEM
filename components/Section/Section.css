@@ -1,0 +1,8 @@
+.Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid black;
+    padding: 0 20px;
+}
