@@ -2,13 +2,13 @@
 	justify-content: flex-start;
 	text-align: center;
 	vertical-align: middle;
-    margin: 25%;
+    margin: 15px;
     display: inline-block;
-    width: 130%;
+    width: 85px;
     height: 30px;
 	background-color: white;
     color: black;
-    padding: 10%;
+    padding: 10px;
     font-size: 16px;
     border: none;
 	cursor: pointer;
@@ -16,15 +16,19 @@
 }
 
 .Dropdown__content{
-	display: none;
+    display: none;
+    
 }
 
 .Dropdown__link {
-	background-color: gray;
-    color: black;
-	width: 100%;
+	background-color: black;
+    color: white;
+    width: 110px;
     text-decoration: none;
     display: block;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 .show{
