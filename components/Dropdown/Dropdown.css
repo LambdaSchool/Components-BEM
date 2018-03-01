@@ -3,8 +3,20 @@
     align-self: flex-start;
     padding: 1rem;
     border: 2px solid black;
+    flex-direction: column;
+}
+
+.Dropdown__content {
+    display: none;
 }
 
 .Dropdown--active .Dropdown__content {
+    display: flex;
     flex-direction: column;
+    z-index: 1;
+    padding-top: 0.5rem;
+}
+
+.Dropdown__content a {
+    padding: 0.25rem 0;
 }
