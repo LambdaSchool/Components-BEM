@@ -1,0 +1,43 @@
+.Section {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.Section__header {
+  text-align: center;
+  margin-top: 10px;
+  width: 82%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ourSection {
+  display: flex;
+  width: 98%;
+}
+
+.Section--styles {
+  margin: 0px 5px 0px 5px;
+  width: 100%;
+  border: 2px solid black;
+}
+.Section--styles .Section--border {
+  border: 2px 2px 0px 2px solid black;
+}
+
+.Section--styles .Section--Bottom {
+  border-bottom: none;
+}
+
+@media (max-width: 550px) {
+
+  .Section {
+  width: 100%;
+  background: lightcoral;
+  flex-direction: column;
+  }
+  .ourSection {
+    width: 82%;
+  }
+}
