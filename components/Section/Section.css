@@ -1,0 +1,27 @@
+.Section {
+    border: 2.5px solid black;
+    box-sizing: border-box;
+	display: inline-block;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	position: relative;
+}
+.Section--halves {
+    border-top:none;
+    display:flex;
+    padding: 0px;
+}
+
+.Section__header__text {
+    font-size:3rem;
+    font-weight: bold;
+	text-align:center;
+}
+
+@media (max-width: 600px) {
+	.Section--halves {
+        flex-direction: column;
+    }
+}

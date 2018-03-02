@@ -1,0 +1,24 @@
+.Box {
+    padding:15px 15px 20px 15px;
+	font-size: 1.2em;
+}
+.Box__header {
+    font-size:1.2em;
+    font-weight: bold;
+    margin:5px 0px 5px 0px;
+}
+.Box--left {
+    border-right: 1.5px solid black;
+}
+.Box--right {
+    border-left: 1.5px solid black;
+}
+@media (max-width: 600px) {
+    .Box--left {
+        border:none;
+        border-bottom: 1.5px solid black;
+    }
+    .Box--right {
+        border:none;
+    }
+}
