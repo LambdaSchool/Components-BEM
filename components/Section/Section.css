@@ -1,0 +1,39 @@
+.Block__Section {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+}
+.Section--border {
+    width: 100%;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+.Section__dropdown {
+    display: flex;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+.Section__description {
+    padding-left: 10px;
+}
+.Header {
+   padding-left: 40%
+}
+/* Phone */
+
+@media (max-width: 400px) {
+    .Header {
+        padding-left: 10px;
+     }
+    
+    .Section--sectionHalf {
+        flex-wrap: wrap;
+    }
+}
