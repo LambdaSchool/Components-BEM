@@ -1,8 +1,16 @@
 @import './components/Section/Section.css';
-@import './components/Box/Box.css';
-
+@import './components/Box/box.css';
+@import './components/Tab/tab.css';
 body {
 	box-sizing: border-box;
 	min-width: 300px;
 	margin: 0;
+	font-size: 62.5%;
 }
+h4{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+

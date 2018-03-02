@@ -1,0 +1,35 @@
+
+.section {
+    display:flex;
+    font-size: 1.5rem;
+    }
+.section--one{
+    border: solid black 2px;
+    padding: 5px;
+}
+.section--two{
+    border: solid black 2px;
+    padding: 5px;
+}
+@media(max-width:900px){
+    .section {
+   
+    max-width: 900px;
+    padding: 4px;
+    }
+}
+@media(max-width:768px){
+    .section {
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+    }
+}
+@media(max-width:400px){
+    .section {
+    font-size: 0.8rem;
+    padding: 1px;
+    display:flex;
+    flex-direction: column;
+    }
+}
