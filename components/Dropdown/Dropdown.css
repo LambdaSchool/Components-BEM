@@ -1,0 +1,37 @@
+.Dropdown {
+    display: flex;
+    /* padding: 1rem; */
+    flex-direction: column;
+    position: absolute;
+    margin: 20px 0 0 20px;
+}
+
+button {
+    padding: 10px;
+}
+
+.Dropdown__content {
+    display: none;
+    padding: 5px;
+    background-color: white;
+}
+
+
+.Dropdown__button .Dropdown--active {
+    border: 2px solid black;
+    background: white;
+}
+
+.Dropdown--active .Dropdown__content {
+    display: flex;
+    flex-direction: column;
+    /* z-index: 1; */
+    padding-top: 0.5rem;
+    width: 77.7px;
+    text-align: center;
+
+}
+
+.Dropdown__content a {
+    padding: 0.25rem 0;
+}
