@@ -1,0 +1,31 @@
+.Section {
+    display: flex;
+}
+
+.Section__left {
+    border: 2px solid black;
+}
+
+.Section__right {
+    border: 2px solid black;
+}
+
+.Section__left-content {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.Section__left-header {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.Section__right-content {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.Section__right-header {
+    margin-right: 5px;
+    margin-left: 10px;
+}
