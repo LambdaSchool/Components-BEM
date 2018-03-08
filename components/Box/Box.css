@@ -1,0 +1,25 @@
+.dropdown__li{
+    border: 2px solid black;
+    list-style-type: none;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.dropdown__li--inner {
+    margin-top: 5px;
+    border: 2px solid black;
+    width: 75px;
+    text-align: center;
+    text-decoration-color : black;
+}
+
+.dropdown__li--active {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}

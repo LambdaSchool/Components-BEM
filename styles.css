@@ -6,3 +6,8 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Masterhead {
+	display: flex;
+	border: 2px solid black;
+}
