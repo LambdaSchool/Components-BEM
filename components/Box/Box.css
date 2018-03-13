@@ -1,0 +1,9 @@
+.Box {
+    margin: 5px 5px 5px 5px;
+}
+
+.Box__header {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px;
+}

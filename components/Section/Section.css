@@ -1,0 +1,23 @@
+.Section {
+    display: inline-block;
+    border: 3px solid black;
+    align-items: center;
+    padding: 20px;
+}
+
+.Section--header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Section__header {
+    font-weight: bold;
+    align-items: center;
+    font-size: 50px;
+}
+
+.Section--split {
+    display: flex;
+    justify-content: center;
+}
