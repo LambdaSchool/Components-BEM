@@ -7,26 +7,39 @@ body {
 	margin: 0;
 }
 
-.Section {
-	border: 1px solid black;
-	display: flex;
-	align-items: center;
-	width: 100%;
-}
-
-.Section__Heading {
-	text-align: center;
-	margin-left: 37%
-}
-
 .Dropdown {
-	display: flex;
+	display: block;
 	border: 1px solid black;
-	margin: 2% 2%;
+	margin-left: 10%;
 }
 
-.Box {
-	flex-order: 2;
+.Dropdown__Title {
+	display: block;
+	text-align: center;
+	font-weight: bold; 
+	width: 115%;
 	border: 1px solid black;
-	margin: auto;
+	margin-left: 10%;
+	padding: 25% 25%;
 }
+
+.Dropdown__Content {
+	display: none;
+	text-align: center;
+	position: absolute;
+	min-width: 120px;
+	margin-left: 1%;
+	width: 1%;
+	border: 1px solid black;
+}
+
+.Dropdown__Content--Display {
+	display: block;
+	text-align: center;
+	position: absolute;
+	min-width: 120px;
+	margin-left: 1%;
+	width: 1%;
+	border: 1px solid black;
+}
+
