@@ -1,0 +1,12 @@
+.Dropdown {
+    margin-left: 10px;
+}
+
+.Dropdown__button {
+    border: 4px solid black;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
