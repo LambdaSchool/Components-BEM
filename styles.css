@@ -6,3 +6,9 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Dropdown {
+	display: inline-block;
+	height: 1.5rem;
+	border: 2px solid black;
+}
