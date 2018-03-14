@@ -9,7 +9,7 @@ class Dropdown {
             // children[1].classList.add('Dropdown--Display'); // for use with getElementsByClassName array
             this.child.classList.add('Dropdown--Display');
             this.clicked = true;
-            this.clicked();
+            clicked();
         });
     }
     
@@ -17,8 +17,6 @@ class Dropdown {
         if (this.clicked) {
             console.log(true);
             this.element.addEventListener('click', () => {
-                // let children = this.element.children;
-                // children[1].classList.add('Dropdown--Display'); // for use with getElementsByClassName array
                 this.child.classList.remove('Dropdown--Display');
             });
         }
