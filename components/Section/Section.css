@@ -1,0 +1,15 @@
+.section--full {
+    display:flex;
+    width:100%;
+}
+.section--half {
+    width:50%;
+}
+.section__header {
+    margin: auto;
+}
+
+
+.section{
+    border: 1px solid black;
+}

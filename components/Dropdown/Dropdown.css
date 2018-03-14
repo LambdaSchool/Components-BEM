@@ -1,0 +1,17 @@
+.dropdown__button {
+    border: 1px solid black;
+    height: 40px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.dropdown__list {
+ 
+}
+.dropdown--active {
+    display:block;
+}
+
+.dropdown--inactive {
+    display:none;
+}
