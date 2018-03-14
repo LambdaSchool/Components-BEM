@@ -1,13 +1,8 @@
-console.log('yo')
-
-const first = arr => arr[0]
-
 class Dropdown {
-  constructor(element, hiddenClassName) {
+  constructor(element, hideClass) {
     this.element = element
     this.clicked = false
-    this.hiddenClassName = hiddenClassName
-    this.child = [...this.element.children].filter(child => child.className === this.hiddenClassName)[0]
+    this.child = [...this.element.children].filter(child => child.className === hideClass)[0]
 
     this.element.addEventListener('click', (e) => this.handleClickEvent(e))
   }
