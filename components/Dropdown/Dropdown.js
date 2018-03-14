@@ -2,7 +2,7 @@ class Dropdown {
   constructor(element, hideClass) {
     this.element = element
     this.clicked = false
-    this.child = [...this.element.children].filter(child => child.className === hideClass)[0]
+    this.child = [...this.element.children].find(child => child.className === hideClass)
 
     this.element.addEventListener('click', () => this.handleClickEvent())
   }
