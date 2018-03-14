@@ -7,11 +7,6 @@ body {
 	margin: 0;
 }
 
-.Dropdown {
-	display: block;
-	border: 1px solid black;
-	margin-left: 10%;
-}
 
 .Dropdown__Title {
 	display: block;
@@ -35,11 +30,5 @@ body {
 
 .Dropdown__Content--Display {
 	display: block;
-	text-align: center;
-	position: absolute;
-	min-width: 120px;
-	margin-left: 1%;
-	width: 1%;
-	border: 1px solid black;
 }
 
