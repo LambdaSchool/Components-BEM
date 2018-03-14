@@ -6,3 +6,37 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Dropdown {
+	display: block;
+	text-align: center;
+	font-weight: bold; 
+	border: 1px solid black;
+	margin-left: 6%;
+	padding: 2%;
+}
+
+.Dropdown__Content {
+	display: none;
+}
+
+.Dropdown--Display {
+	display: flex;
+	flex-direction: column;
+	align-items: space-around;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	min-width: 120px;
+	margin-top: 7px;
+	padding: 2%;
+	width: 1%;
+	border: 1px solid black;
+}
+
+@media (max-width: 500px) {
+	.Section--Lower {
+		flex-direction: column;
+	}
+}
+

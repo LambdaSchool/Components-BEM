@@ -1,0 +1,18 @@
+.Section {
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.Section--Lower {
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.Section__Heading {
+	text-align: center;
+	margin-left: 25%
+}
