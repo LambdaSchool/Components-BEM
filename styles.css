@@ -8,27 +8,28 @@ body {
 }
 
 
-.Dropdown__Title {
+.Dropdown {
 	display: block;
 	text-align: center;
 	font-weight: bold; 
-	width: 115%;
 	border: 1px solid black;
-	margin-left: 10%;
-	padding: 25% 25%;
+	margin-left: 2%;
+	padding: 2%;
 }
 
 .Dropdown__Content {
 	display: none;
+}
+
+.Dropdown--Display {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
 	text-align: center;
 	position: absolute;
 	min-width: 120px;
-	margin-left: 1%;
+	margin-top: 7px;
 	width: 1%;
 	border: 1px solid black;
-}
-
-.Dropdown__Content--Display {
-	display: block;
 }
 

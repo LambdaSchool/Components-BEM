@@ -1,10 +1,12 @@
 class Dropdown {
     constructor(element) {
         this.element = element;
+        this.child = document.querySelector('.Dropdown__Content');
+        console.log(this.child.classList);
         this.element.addEventListener('click', () => {
-            let dropContent = document.getElementsByClassName('Dropdown__Content'); 
-            // dropContent.classList.add('Dropdown__Content--Display');
-            console.log(dropContent);
+            // let children = this.element.children;
+            // children[1].classList.add('Dropdown--Display'); // for use with getElementsByClassName array
+            this.child.classList.add('Dropdown--Display');
         });
     }
 }
