@@ -6,8 +6,8 @@
     width: 100%;
 }
 
-.Section--header {
-    display: flex;
+.Section__header {
+    text-align: center;
 }
 
 
@@ -22,4 +22,10 @@
     display: flex;
     padding: 0;
     justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .Section--split {
+        flex-direction: column;
+    }   
 }
