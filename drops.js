@@ -3,11 +3,25 @@ class Dropdown {
         this.element = element;
         this.child = document.querySelector('.Dropdown__Content');
         console.log(this.child.classList);
+        this.clicked = false;
         this.element.addEventListener('click', () => {
             // let children = this.element.children;
             // children[1].classList.add('Dropdown--Display'); // for use with getElementsByClassName array
             this.child.classList.add('Dropdown--Display');
+            this.clicked = true;
+            this.clicked();
         });
+    }
+    
+    clicked() {
+        if (this.clicked) {
+            console.log(true);
+            this.element.addEventListener('click', () => {
+                // let children = this.element.children;
+                // children[1].classList.add('Dropdown--Display'); // for use with getElementsByClassName array
+                this.child.classList.remove('Dropdown--Display');
+            });
+        }
     }
 }
 
