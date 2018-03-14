@@ -1,0 +1,22 @@
+.Section {
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Dropdown {
+	border: 2px solid black;
+    display: inline;
+    height: 40px;
+    margin: 15px;
+    align-items: center;
+}
+
+.Dropdown__list {
+    display: none;
+}
+
+.Section__heading {
+    margin-left: 250px;
+}

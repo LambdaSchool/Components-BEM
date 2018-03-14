@@ -6,3 +6,11 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Dropdown__list {
+	border: 1px solid black;
+}
+
+.Dropdown__item {
+	list-style-type: none;
+}

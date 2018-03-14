@@ -1,0 +1,13 @@
+.Box {
+    border: 1px solid black;
+    padding: 0.5%;
+    display: block;
+    min-width: 300px;
+}
+
+@media (min-width: 750px) {
+    .Box {
+        display: inline-block;
+        width: 48%;
+    }
+}
