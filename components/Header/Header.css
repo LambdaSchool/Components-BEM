@@ -5,3 +5,10 @@
   padding: 20px 0;
   border: 2px solid black;
 }
+
+@media (max-width: 600px) {
+  .Header {
+    font-size: 32px;
+
+  }
+}

@@ -25,3 +25,9 @@
   position: absolute;
   display: flex;
 }
+
+@media (max-width: 600px) {
+  .Dropdown {
+    padding: 20px 0 0 20px;
+  }
+}
