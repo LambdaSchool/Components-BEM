@@ -7,8 +7,10 @@ body {
 	margin: 0;
 }
 
-.Dropdown {
-	display: inline-block;
-	height: 1.5rem;
-	border: 2px solid black;
+.Dropdown__list {
+	border: 1px solid black;
+}
+
+.Dropdown__item {
+	list-style-type: none;
 }
