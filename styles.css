@@ -1,4 +1,6 @@
+@import '.components/Dropdown/Dropdown.css';
 @import './components/Section/Section.css';
+@import '.componenets/Tabs/Tabs.css';
 @import './components/Box/Box.css';
 
 body {
