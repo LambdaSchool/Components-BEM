@@ -1,8 +1,42 @@
 
-
 .box {
-   height:200px;
-   width: 200px;
-   
-    display: hidden;
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+}
+.box__button {
+margin: 10px;
+	width: 75px;
+	height: 25px;
+	align-content: center;
+	border: coral;
+	border-style: solid;
+	align-content: center;
+	justify-content: center;
+	padding:10px;
+
+}
+.box__button > span {
+	padding:25px;
+	padding-top: 35px; 
+	text-align: center;
+}
+.box__options {
+    z-index: 5;
+	display: none;
+	flex-direction: column;
+	width:75px;
+	margin: 10px;
+	flex-wrap: wrap;
+	border: coral;
+	border-style: solid;
+	padding: 10px;
+}
+.box__optionsText {
+	margin: 10;
+	align-content: space-around;
+	
+}
+.DropDown-Active .box__options {
+    display: block;
 }

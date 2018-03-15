@@ -13,13 +13,22 @@ body {
 
 }
 header {
-	height: 120px;
+	height: 70px;
 	width:100%;
+	display: flex;
+	border-bottom: 3px solid;
+	border-color: coral;
+}
+.header__title {
+	justify-content: center;
+	
 }
 .header__dropdown {
 	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	
 }
-.box {
-	display: flex;
-	flex-direction: column;
+.Dropdown-Active .box__options {
+	display: block;
 }
