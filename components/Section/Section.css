@@ -1,0 +1,19 @@
+.Section {
+  display: block;
+  padding: 10px;
+  clear: both;
+  margin: 0px;
+  padding: 20px;
+  position: relative;
+}
+
+.Section--bordered {
+  border: 2.5px solid black;
+  border-top: none;
+}
+
+.Section__header {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
