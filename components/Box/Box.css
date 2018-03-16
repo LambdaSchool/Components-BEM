@@ -41,3 +41,6 @@ margin: 10px;
 .DropDown-Active .box__options {
     display: block;
 }
+.Dropdown-Active .box__options {
+	display: block;
+}
