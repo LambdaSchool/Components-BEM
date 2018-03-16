@@ -9,10 +9,23 @@
 }
 .Section--border {
     border: solid 2px black;
+    border-top: none;
 }
 
-.Section__header .Dropdown .Tabs {
+.Section--border:first-of-type {
+    border-top: none;
+}
+
+.Section__header {
   font-size: 2.5em;
   font-weight: bold;
   text-align: center; 
+}
+@media (min-width: 600px) {
+    .Section--half {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 50%;
+        padding: 20px;
+    }
 }
