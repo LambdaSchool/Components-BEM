@@ -9,7 +9,7 @@ margin: 10px;
 	width: 75px;
 	height: 25px;
 	align-content: center;
-	border: coral;
+	border: black;
 	border-style: solid;
 	align-content: center;
 	justify-content: center;
@@ -28,7 +28,8 @@ margin: 10px;
 	width:75px;
 	margin: 10px;
 	flex-wrap: wrap;
-	border: coral;
+    border: black;
+    background: white;
 	border-style: solid;
 	padding: 10px;
 }

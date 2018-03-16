@@ -20,8 +20,8 @@ header {
 	border-color: coral;
 }
 .header__title {
-	justify-content: center;
-	
+	margin: auto;
+	margin-right: 45%;
 }
 .header__dropdown {
 	display: flex;
@@ -31,4 +31,9 @@ header {
 }
 .Dropdown-Active .box__options {
 	display: block;
+}
+@media (max-width: 768px) {
+	.main {
+		flex-flow: column;
+	}
 }
