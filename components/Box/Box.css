@@ -1,6 +1,12 @@
 .Box {
   box-sizing: border-box;
-  display: inline-block;
-  border: 2px solid black;
-  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Box__header {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: 900;
+  
 }
