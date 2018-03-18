@@ -1,0 +1,17 @@
+
+
+.section {
+display: flex;
+flex-flow: column;
+border: 3px solid coral;
+}
+
+.section__title {
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.section__text {
+    box-sizing: border-box;
+    margin: 15px;
+}
