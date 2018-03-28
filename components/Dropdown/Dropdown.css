@@ -1,2 +1,15 @@
+/* The container around the dropdown menu */
 .Dropdown {
+  border: 20px solid black;
+}
+
+/* the actual button on the dropdown menu */
+.dropdown__button {
+
+}
+
+/* the actual menu of the dropdown button */
+
+.dropdown__menu {
+
 }
