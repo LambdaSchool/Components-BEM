@@ -2,12 +2,30 @@
 .Dropdown__menu {
 	padding: 10px;
 	font-size: 12px;
-	border: 3px solid black;
-  	background: transparent;
+	border: 2px solid black;
+  background: transparent;
 }
 
 .Dropdown {
-  	position: absolute;
-  	padding-top: 25px;
-  	padding-left: 15px;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
 }
+
+.Dropdown__items {
+    display: none;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding: 10px 20px 15px 5px;
+}
+
+.Dropdown__items a {
+    padding: 5px;
+    display: flex;
+}
+
+.show {display:block;}
