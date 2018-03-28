@@ -1,3 +1,8 @@
-.Header {
+.Box__header {
   width: 100%;
+  display: flex;
+  border-bottom: 2px solid black;
+  align-items: center;
+  justify-content: center;
 }
+
