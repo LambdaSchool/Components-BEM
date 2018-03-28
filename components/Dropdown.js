@@ -12,4 +12,4 @@ class Dropdown {
     }
 }
 
-toggle = new Dropdown(toggle);
+toggler = new Dropdown(toggle);
