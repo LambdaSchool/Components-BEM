@@ -64,4 +64,13 @@ body {
 	padding: 0 20px;
 }
 
+/* Create Media Query for Mobile device */
+@media (max-width: 500px) {
+	.Boxes {
+		flex-direction: column;
+	}
 
+	.Box {
+		width: 100%;
+	}
+}
