@@ -1,0 +1,19 @@
+.Block {
+    border: 2.5px solid black;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	position: relative;
+}
+.Block__artical {
+    border-top:none;
+    display:flex;
+    padding: 0px;
+}
+
+.Block__header__text {
+    font-size:3rem;
+    font-weight: bold;
+	text-align:center;
+}
