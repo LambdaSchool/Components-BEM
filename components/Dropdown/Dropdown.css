@@ -17,6 +17,8 @@
     border: 2px solid black;
     text-align: center;
     justify-content: space-around;
+    position: absolute;
+    width: 65px;
 }
 
 .Dropdown--active {
