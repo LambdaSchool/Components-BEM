@@ -1,0 +1,38 @@
+/* .Box {
+    border: 2px solid black;
+} */
+
+.Box__header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Box__h1 {
+    border: none;
+}
+
+nav {
+    padding: 10px;
+}
+
+.Box__navDropdown{
+    border: 2px solid black;
+    padding: 15px;
+    width: 70px;
+}
+
+.Box__navButtons {
+    display: hidden;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-top: 15px;
+    border: 2px solid black;
+    width: 100px;
+    position:fixed;
+    background: white;
+}
+a{
+    padding: 5px 0 5px 15px;
+}
