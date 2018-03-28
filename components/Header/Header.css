@@ -18,3 +18,21 @@
   border: 2px solid black;
 }
 
+.Box__headDropdown--expanded {
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+.Box__headDropUl {
+  padding-left: 0;
+  list-style: none;
+  border: 2px solid black;
+  background: white;
+}
+
+.Box__headDropLi {
+  padding: 5px 0 5px;
+  display: flex;
+  justify-content: center;
+}
