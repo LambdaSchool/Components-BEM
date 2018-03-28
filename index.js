@@ -9,22 +9,14 @@ let childDropdown = dropDown.children;
 class Dropdown {
 	constructor(el) {
 		this.element = el;
-		this.element.addEventListener('click', this.showContent)
+		this.element.addEventListener('click', this.showContent);
 	}
 	// Dropdown prototype
 	showContent() {
 		dropDown.classList.toggle("show");
 	}
 }
-
-// make instances of Dropdown
-// childDropdown = Array.from(childDropdown).map( element => {
-// 	return new Dropdown(element);
-// })
-
+// create an Dropdown instance
 childDropdown = new Dropdown(dropDown);
-// console.log(childDropdown);
 
-// for (let i = 0; i < childDropdown.length; i++) {
-	dropButton.addEventListener('click', childDropdown.showContent);
-// }
+dropButton.addEventListener('click', childDropdown.showContent);
