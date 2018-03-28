@@ -20,9 +20,8 @@ padding: 5%;
 
 .dropdown__menu {
 display: none;
-
 }
 
-.dropdown__menu--reveal {
-  display:flex;
+.dropdownreveal{
+  display: flex;
 }
