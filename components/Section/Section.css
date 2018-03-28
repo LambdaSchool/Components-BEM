@@ -2,11 +2,14 @@
 .dropbtn {
     background-color: white;
     color:  black;
-    padding: 16px;
+    padding: 20px;
     font-size: 16px;
     border: none;
 	cursor: pointer;
-	border: 3px solid black;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 8px;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -40,3 +43,5 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
