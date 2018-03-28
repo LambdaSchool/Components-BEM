@@ -1,20 +1,28 @@
 /* The container around the dropdown menu */
 
 .Dropdown {
-display: flex;
-margin-top: 30px;
-justify-content: flex-start;
-align-items: center;
+position: absolute;
+margin-top: 2%;
+margin-left: 2%;
 }
 
 /* the actual button on the dropdown menu */
 
-.dropdown__button {}
+.dropdown__button {
+font-size: 1.2rem;
+height: 5%;
+background-color: white;
+border: 2px solid black;
+padding: 5%;
+}
 
 /* the actual menu of the dropdown button */
 
 .dropdown__menu {
+display: none;
 
 }
 
-.dropdown__menu a {}
+.dropdown__menu--reveal {
+  display:flex;
+}
