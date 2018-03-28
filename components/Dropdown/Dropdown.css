@@ -1,0 +1,22 @@
+.dropdown {
+    position: static;
+    z-index:1;
+    margin-right: 25%;
+}
+
+.dropdown__stuff {
+    display: none;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.dropdown__button {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 0.6rem;
+}
+
+.dropdown__link {
+    margin: 0.3rem 1.6rem;
+}
