@@ -1,5 +1,8 @@
-body {
+* {
 	box-sizing: border-box;
+}
+
+body {
 	min-width: 300px;
 	margin: 0;
 }
@@ -62,4 +65,25 @@ section {
 	width: 50%;
 	border: 1px solid black;
 	padding: 10px;
+}
+
+@media(max-width: 400px) {
+	.content {
+		flex-direction: column;
+	}
+	.content__block {
+		width: 100%;
+	}
+	.header {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	.dropdown {
+		position: inherit;
+		margin-bottom: 10px;
+	}
+	.dropdown__menu {
+		position: absolute;
+	}
 }
