@@ -1,0 +1,12 @@
+.box--display {
+    display: flex;
+}
+
+.box--column {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.box--paragraph {
+    font-size: 1.4rem;
+}

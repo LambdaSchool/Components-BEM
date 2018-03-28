@@ -1,0 +1,26 @@
+.section--display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section--heading {
+    /* text-align: center; */
+    justify-content: center;
+    width: 80%;
+    font-size: 1.5em;
+}
+
+.section--dropdown {
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    margin-left: 1em;
+    width: 70%;
+}
+
+.section__dropdownButton {
+    background: none;
+    border: 3px solid black;
+    padding: 1em;
+}
