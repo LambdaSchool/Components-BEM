@@ -1,0 +1,15 @@
+.row2 {
+    display: flex;
+}
+.Box {
+    display: inline-block;
+    border: .25rem solid black;
+    padding: 1rem;
+}
+
+.Box__header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* The boxes aren't justifying the content properly */
