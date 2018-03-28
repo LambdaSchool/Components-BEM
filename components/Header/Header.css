@@ -6,3 +6,15 @@
   justify-content: center;
 }
 
+.Box__headDropdown {
+  position: absolute;
+  left: 40px;
+  width: 90px;
+}
+
+.Box__headDropTitle {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+
