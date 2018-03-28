@@ -1,0 +1,8 @@
+.Box__header {
+  text-align: center;
+  display: flex;
+}
+
+.Box__headDropUl {
+  display: none;
+}
