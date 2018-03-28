@@ -1,0 +1,13 @@
+.Container{
+  display: flex;
+  flex-flow: row nowrap;
+  border: 2px solid black;
+}
+.Header{
+  &:extend(.Container);
+  &:extend(.padding-1);
+  &__Text{
+    width: 100%;
+    &:extend(.centerText);
+  }
+}
