@@ -10,21 +10,18 @@
 Using ES6 class constructors, complete the `Dropdown` component functionality. -->
 
 <body>
-	<div class="Section">
-		<div class="Navbar">
-			<div class="dropdown">
-				<button class="dropbtn">Dropdown
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-content">
-					<a href="lambdaschool.com">Lambda</a>
-					<a href="google.com">Google</a>
-					<a href="https://developer.mozilla.org">MDN</a>
-
-				</div>
+	<div class="Section Box">
+		<div class="Navbar dropdown">
+			<button onclick="Toggle()" class="dropbtn">Dropdown</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="lambdaschool.com">Lambda</a>
+				<a href="google.com">Google</a>
+				<a href="https://developer.mozilla.org">MDN</a>
 			</div>
 		</div>
-		<div class="Block__header" style:"border: 2px"><h1>Header</h1></div>
+		<div class="Block__header">
+			<h1>Header</h1>
+		</div>
 	</div>
 	<div class="Section">
 		<div class="Block Box">
