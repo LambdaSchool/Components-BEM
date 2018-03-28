@@ -57,4 +57,11 @@ body {
 	flex-direction: row;
 }
 
+/* Border for Box with Placeholder & Style with width & padding */
+.Box {
+	width: 50%;
+	border: 2px solid black;
+	padding: 0 20px;
+}
+
 
