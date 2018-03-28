@@ -1,0 +1,7 @@
+.Box {
+    border: 2px black solid;
+}
+
+.Box__headerHeadline {
+    text-align: center;
+}
