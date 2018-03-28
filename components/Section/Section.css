@@ -1,4 +1,8 @@
 .Header {
-
     border: 2px solid black;
+    height: 100px;
+}
+
+.Header__headline {
+    text-align: center;
 }
