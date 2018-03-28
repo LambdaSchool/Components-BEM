@@ -20,6 +20,14 @@ padding: 5%;
 
 .dropdown__menu {
 display: none;
+flex-direction: column;
+background: white;
+border: 2px solid black;
+padding: 3%;
+}
+
+.dropdown__menu a {
+  margin: 5%;
 }
 
 .dropdownreveal{
