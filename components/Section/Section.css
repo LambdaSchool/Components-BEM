@@ -1,15 +1,9 @@
 .Section {
   border: 1px solid black;
- display: flex;
- justify-content: center;
- align-items: center;
 }
 
 .Section__header {
-  justify-content: center;
-  font-size: 1.2rem;
-  margin-top: 2%;
-  margin-bottom: 2%;
+text-align: center;
 }
 
 .Section__half {

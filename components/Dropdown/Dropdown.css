@@ -1,13 +1,14 @@
 /* The container around the dropdown menu */
 
 .Dropdown {
+display: flex;
+justify-content: flex-start;
+align-items: center;
 }
 
 /* the actual button on the dropdown menu */
 
-.dropdown__button {
-
-}
+.dropdown__button {}
 
 /* the actual menu of the dropdown button */
 
@@ -15,8 +16,4 @@
 
 }
 
-display: flex;
-}
-
-.dropdown__menu a {
-}
+.dropdown__menu a {}
