@@ -1,0 +1,10 @@
+.Box {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+
+.Box__header {
+    
+}

@@ -6,3 +6,8 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Header {
+	text-align: center;
+	border: 2px solid black;
+}
