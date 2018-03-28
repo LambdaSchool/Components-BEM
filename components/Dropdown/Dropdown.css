@@ -10,8 +10,7 @@
     border: 3px solid black;
 }
 .Dropdown__menu {
-    display:flex;
-    display:none;
+    display: none;
     margin-top: 10px;
     padding: 10px;
     font-size: 15px;
@@ -21,4 +20,7 @@
     border: 3px solid black;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.Dropdown__menu--show {
+    display: flex;
 }
