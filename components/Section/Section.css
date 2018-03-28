@@ -13,5 +13,6 @@
 .Section__half {
   border: 2px solid black;
   display: flex;
-  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
