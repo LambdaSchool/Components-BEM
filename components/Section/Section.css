@@ -16,6 +16,22 @@
     border: 2px solid black;
     width: 1000px;
     height: 100px;
+    align-items: center;
+}
+.Selection__header--headline {
     text-align: center;
-    justify-content: center;
+    justify-content: center
+}
+.Selection__header--droplist {
+    align-self: flex-start;
+    align-items: center;
+    width: 100px;
+    margin-left: 15px;
+}
+
+.Selection__header--droplist--content {
+    position: absolute;
+    display: block;
+    background-color: blue;
+    z-index: 1;
 }

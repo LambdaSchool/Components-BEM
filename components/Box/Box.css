@@ -1,9 +1,10 @@
 .Box {
-    width:500px;
-    height: 200px;
+    width:100px;
+    height: 50px;
    /*// border: 1px solid #000000;*/
-    color: black;
-    display: flex;
-
+    background-color: black;
+    margin-bottom: 3px;
 }
+
+
 
