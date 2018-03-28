@@ -1,3 +1,13 @@
+.box__header {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.box__dropdown {
+    border: 2px solid black;
+}
+
 .box__title {
     font-weight: bold;
 }
