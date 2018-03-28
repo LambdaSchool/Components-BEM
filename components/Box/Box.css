@@ -1,14 +1,19 @@
-.Block__Header {
-    align-items: center;
+.Box {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    /*justify-content: space-between;*/
 }
 
-.Block__Dropdown {
-    border: 2px solid black;
-    align-items: flex-start;
+.Box__Header {
+	border: 1px solid red;
+/*	margin: 0 auto;*/
 }
 
-.Block__Content {
+.Box__Dropdown {
     border: 2px solid black;
-    padding: 20px;
+    /*align-items: flex-start;*/
 }
+
+
 
