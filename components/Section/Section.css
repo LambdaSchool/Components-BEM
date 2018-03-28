@@ -1,0 +1,20 @@
+.Block {
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.Block__header {
+    margin-left: 20px;  
+}
+
+.Block__text {
+    margin: 20px;
+}
+
+.Header {
+    text-align: center;
+    border: 2px solid black;
+}
+
