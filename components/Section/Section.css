@@ -1,0 +1,21 @@
+.Selection {
+    display: flex;
+}
+.Selection__column {
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.Selection_content {
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.Selection__header {
+    border: 2px solid black;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}

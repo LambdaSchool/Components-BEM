@@ -1,11 +1,9 @@
 .Box {
     width:500px;
     height: 200px;
-    border: 2px solid #000000;
+   /*// border: 1px solid #000000;*/
     color: black;
+    display: flex;
 
 }
 
-.Header {
-    text-align: center;
-}
