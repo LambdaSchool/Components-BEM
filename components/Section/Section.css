@@ -1,0 +1,9 @@
+.Section {
+    height: 80px;
+    border: 3px solid black;
+    border-bottom: 0px;
+}
+.Section__header {
+    text-align: center;
+    font-size: 35px;
+}
