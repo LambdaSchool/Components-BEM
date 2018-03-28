@@ -1,7 +1,6 @@
 // access dropDown button
 let dropDown = document.querySelector('.Box__DropdownContent');
 let dropButton = document.querySelector('.Box__DropdownBtn');
-let childDropdown = dropDown.children;
 // console.log(dropDown);
 // console.log(childDropdown);
 
@@ -9,22 +8,14 @@ let childDropdown = dropDown.children;
 class Dropdown {
     constructor(el) {
         this.element = el;
-        this.element.addEventListener('click', this.showContent)
+        this.element.addEventListener('click', this.showContent);
     }
     // Dropdown prototype
     showContent() {
         dropDown.classList.toggle("show");
     }
 }
+// create an Dropdown instance
+let childDropdown = new Dropdown(dropDown);
 
-// make instances of Dropdown
-// childDropdown = Array.from(childDropdown).map( element => {
-//     return new Dropdown(element);
-// })
-
-childDropdown = new Dropdown(dropDown);
-// console.log(childDropdown);
-
-// for (let i = 0; i < childDropdown.length; i++) {
 dropButton.addEventListener('click', childDropdown.showContent);
-// }
