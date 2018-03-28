@@ -1,0 +1,24 @@
+.Section{
+    display: flex;
+    border: .25rem solid black;
+    justify-content: center;
+}
+
+.Section__dropdown {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+    border: .1rem solid black;
+    padding: 1rem;
+}
+/* center the header */
+.Section__header {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;    
+    /* border: 1px solid black; */
+    width: 100%;
+}
