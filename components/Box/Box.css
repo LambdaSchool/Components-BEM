@@ -1,17 +1,21 @@
+.header__box {
+    display: flex;
+    border: 2px solid blue;
+}
+
 .box__header {
     border-left: 2px solid black;
     border-right: 2px solid black;
     text-align: center;
+    flex-grow: 1;
 }
 
-.box__dropdown {
+.header__dropdown {
     border: 2px solid black;
+    float: left;
+    align-self: center;
 }
 
 .box__title {
     font-weight: bold;
-}
-
-.box__text {
-
 }
