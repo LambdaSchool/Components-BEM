@@ -10,3 +10,7 @@
 .box--paragraph {
     font-size: 1.4rem;
 }
+
+.box__heading {
+    font-size: 2.2em;
+}

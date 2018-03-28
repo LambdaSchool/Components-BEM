@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<hml>
+<html>
 	<head>
 		<title>Introduction to the DOM</title>
 		<link rel="stylesheet" href="./styles.css">
+		<script type="text/javascript" src="./components/Dropdown/Dropdown.js" async></script>
 	</head>
 	<body>
 		<div class="section section--display">
 			<div class="section__dropdown section--dropdown">
-				<button class="section__dropdownButton ">Dropdown</button>
+				<button class="section__dropdownButton">Dropdown</button>
+				<div id="myDropdown" class="section__dropdownContent">
+					<a href="#">Lambda</a>
+					<a href="#">Google</a>
+					<a href="#">MDN</a>
+				</div>
 			</div>
 			<div class="section__heading section--heading">
 				<h1 class="section__headingHeader">Header</h1>
@@ -24,4 +30,4 @@
 			</div>
 		</div>
 	</body>
-</hml>
+</html>
