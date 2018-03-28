@@ -9,3 +9,9 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+.Section__half {
+  border: 2px solid black;
+  display: flex;
+  width: 50%;
+}
