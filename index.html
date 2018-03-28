@@ -1,9 +1,70 @@
 <!DOCTYPE html>
-<hml>
-	<head>
-		<title>Introduction to the DOM</title>
-		<link rel="stylesheet" href="./styles.css">
-	</head>
-	<body>
-	</body>
+<html>
+
+<head>
+	<title>Introduction to the DOM</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+	<style>
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+	</style>
+
+	<div class="dropdown">
+		<span>Dropdown</span>
+		<div class="dropdown-content">
+			<p>Lambda</p>
+			<p>Google</p>
+			<p>MDN</p>
+		</div>
+	</div>
+	<div class="Header">
+		<h1>Header</h1>
+	</div>
+	<div class="Block">
+		<div class="Block__header">
+			<h3 class="Block__headerHeadLine">Placeholder</h3>
+		</div>
+		<div class="Block__text">
+			<p class="Block__textParagraph">`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+				lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero,
+				at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat
+				porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse
+				platea dictumst.`</p>
+		</div>
+	</div>
+	<div class="Header">
+	</div>
+	<div class="Block">
+		<div class="Block__header">
+			<h3 class="Block__headerHeadLine">Placeholder</h3>
+		</div>
+		<div class="Block__text">
+			<p class="Block__textParagraph">`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+				lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero,
+				at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat
+				porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse
+				platea dictumst.`</p>
+		</div>
+	</div>
+	</div>
+</body>
 </hml>
