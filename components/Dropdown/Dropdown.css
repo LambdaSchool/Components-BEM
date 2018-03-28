@@ -9,11 +9,17 @@
 }
 
 .Dropdown__list {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     display: none;
+    margin-top: 10px;
+    background: white;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .Dropdown--active {
     display: flex;
+    height: 80px;
 }
