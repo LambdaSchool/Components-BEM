@@ -4,28 +4,55 @@
     max-width: 800px;
     width: 100%;
     display:flex;
-    justify-content: start;
+  justify-content: center
     
   }
 
 
-  .Header--alignLeft {
+  .Container--align {
     display: flex;
     text-align: left;
     align-self: center;
   }
 
   .Header--H3 {
-    margin-left: 250px;
+    display: flex;
+    justify-content: center
 
   }
-
-  .Header--button {
+.container{
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    bottom: 50px;
+}
+  .Container--button {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    z-index: 1;
     border: 3px solid black;
     padding: 10px;
     width: 95px;
     height: 45px;
-    margin-left: 20px;
+  
     /* font-weight: bold; */
     font-size: 14px;
+  }
+  .Container--atag{
+     position: absolute;
+     top: 70px;
+     left: 35px;
+      display:flex;
+
+      flex-direction: column;
+      color:purple;
+      z-index: 1;
+      text-decoration: underline;
+      border: 3px solid black;
+      width: 90px;
+      height: 100px;
+      background: white;
+      /* display:none; */
   }
