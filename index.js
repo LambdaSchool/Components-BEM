@@ -22,4 +22,4 @@ class Dropdown {
     }
   }
   
-  window.onload = () => new Dropdown();
+new Dropdown();
