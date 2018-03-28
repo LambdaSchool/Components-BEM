@@ -40,4 +40,10 @@ body {
 	top: 75px;
 }
 
+/* Format HTML attributes padding & width */
+.DropdownReveal a {
+	padding: 5x;
+	width: 78px;
+}
+
 
