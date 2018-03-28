@@ -1,0 +1,27 @@
+.Box {
+    display: flex;
+}
+
+.Box__1 {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.Box__2 {
+    width: 50%;
+    border: 2px solid black;
+}
+
+@media (max-width: 450px) {
+    .Box {
+        flex-direction: column;
+    }
+
+    .Box__1 {
+        width: 100%;
+    }
+
+    .Box__2 {
+        width: 100%;
+    }
+}

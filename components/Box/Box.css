@@ -1,0 +1,21 @@
+
+.header {
+    display: flex;
+    border: 2px solid black;
+}
+.header__button {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.header__text {
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 450px) {
+    .header__text {
+        margin: 2px;
+    }
+}
