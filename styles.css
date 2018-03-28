@@ -29,3 +29,15 @@ body {
 	top: 15px;
 }
 
+/* Hide HTML attributes of Lambda, Google, MDN */
+.DropdownReveal {
+	position: absolute;
+	border: 2px solid black;
+	background-color: white;
+	display: none;
+	flex-direction: column;
+	left: 10px;
+	top: 75px;
+}
+
+
