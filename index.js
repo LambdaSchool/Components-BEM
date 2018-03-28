@@ -18,11 +18,13 @@ class Dropdown {
 }
 
 // make instances of Dropdown
-childDropdown = Array.from(childDropdown).map(element => {
-    return new Dropdown(element);
-})
+// childDropdown = Array.from(childDropdown).map( element => {
+//     return new Dropdown(element);
+// })
+
+childDropdown = new Dropdown(dropDown);
 // console.log(childDropdown);
 
-for (let i = 0; i < childDropdown.length; i++) {
-    dropButton.addEventListener('click', childDropdown[i].showContent);
-}
+// for (let i = 0; i < childDropdown.length; i++) {
+dropButton.addEventListener('click', childDropdown.showContent);
+// }
