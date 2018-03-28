@@ -71,6 +71,6 @@ body {
 	}
 
 	.Box {
-		width: 100%;
+		width: auto;
 	}
 }
