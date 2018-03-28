@@ -1,0 +1,8 @@
+.section {
+    display: flex;
+}
+
+.section__box {
+    border: 1px solid black;
+    padding: 0 2% 1%;
+}

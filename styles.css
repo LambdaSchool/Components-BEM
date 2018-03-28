@@ -6,3 +6,11 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+p {
+	font-size: 10px;
+}
+
+h3 {
+	margin: 12px 0;
+}
