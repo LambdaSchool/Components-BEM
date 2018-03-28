@@ -5,5 +5,9 @@
 body {
 	box-sizing: border-box;
 	min-width: 300px;
-	margin: 0;
+	margin: 10px;
+}
+
+* {s
+  box-sizing: border-box;
 }
