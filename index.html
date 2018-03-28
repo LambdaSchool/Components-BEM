@@ -4,22 +4,26 @@
 	<head>
 		<title>Introduction to the DOM</title>
 		<link rel="stylesheet" href="./styles.css">
-		<link rel="stylesheet" href="./components/Box/Box.css">
-		<link rel="stylesheet" href="./components/Section/Section.css">
-		<link rel="stylesheet" href="./components/Dropdown/Dropdown.css">
+		<script defer="defer" src="./index.js"></script>
 	</head>
 
 	<body>
 		<!-- __________HEADER__________ -->
-		<div class="Box">
-			<!-- dropdown menu -->
-			<div class="Dropdown">
-				<div class="Dropdown__menu">
-					<h4 class="Dropdown__menuTitle">Dropdown</h4>
-				</div>
-			</div>
 
-			<!-- header headline -->
+		<!-- dropdown menu -->
+		<div class="Dropdown">
+			<div class="Dropdown__button">
+				<button class="Dropdown__buttonTitle">Dropdown</button>
+			</div>
+			<div class="Dropdown__menu">
+				<a href="https://www.lambdaschool.com/" class="Dropdown__link">Lambda</a>
+				<a href="https://www.google.com/" class="Dropdown__link">Google</a>
+				<a href="https://developer.mozilla.org/en-US/" class="Dropdown__link">MDN</a>
+			</div>
+		</div>
+
+		<!-- header headline -->
+		<div class="Box">
 			<div class="Box__header">
 				<h1 class="Box__headerHeadline">Header</h1>
 			</div>
@@ -33,7 +37,7 @@
 					<h3 class="Section__headline">Placeholder</h3>
 				</div>
 				<div class="Section__text">
-					<p class="Section_textPara">Bacon ipsum dolor amet strip steak beef ribs t-bone venison porchetta, sirloin pork chop meatball alcatra short loin
+					<p class="Section__textPara">Bacon ipsum dolor amet strip steak beef ribs t-bone venison porchetta, sirloin pork chop meatball alcatra short loin
 						chicken biltong rump. Swine ham pork chop sausage brisket prosciutto hamburger fatback pancetta. Alcatra beef jerky
 						filet mignon, sausage shoulder short loin chicken ground round. Burgdoggen short loin jowl ground round pancetta hamburger
 						alcatra beef ribs. Filet mignon chicken meatloaf shank, beef pig leberkas tenderloin cupim meatball.</p>

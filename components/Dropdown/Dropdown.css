@@ -1,12 +1,26 @@
 .Dropdown {
   position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.Dropdown__buttonTitle {
+  border: 2px black solid;
+  padding: 15px;
+  background: white;
 }
 
 .Dropdown__menu {
-  margin-left: 20px;
+  display: none;
 }
 
-.Dropdown__menuTitle {
-  border: 2px black solid;
-  padding: 10px;
+.Dropdown__menu--show {
+  border: 2px solid black;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 150%;
+  margin-top: 20px;
+  padding: 20px;
 }
