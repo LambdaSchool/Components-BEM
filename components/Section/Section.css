@@ -6,13 +6,7 @@
     width: 100%;
 }
 
-.Box__1 {
-    width: 50%;
-    border: 2px solid black;
-    padding: 1rem;
-}
-
-.Box__2 {
+.Box__boxes {
     width: 50%;
     border: 2px solid black;
     padding: 1rem;
@@ -24,11 +18,7 @@
         width: 100%;
     }
 
-    .Box__1 {
-        width: 100%;
-    }
-
-    .Box__2 {
+    .Box__boxes {
         width: 100%;
     }
 }

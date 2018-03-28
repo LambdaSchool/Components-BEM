@@ -17,11 +17,6 @@ class Dropdown {
             list.style.display = "none";
         }
     };
-    
-}
+};
 
-
-
-
-
-dropdown = new Dropdown(dropdown); // this creates an object 
+dropdown = new Dropdown(dropdown) ; // this creates an object
