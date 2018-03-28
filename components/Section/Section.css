@@ -1,37 +1,13 @@
 .Selection {
+    max-width: 100%;
+}
+
+.Selection-header {
+    max-width: 100%;
+    height: 90px;
     display: flex;
-}
-.Selection__column {
-    width: 500px;
-    height: auto;
-    border: 2px solid black;
-}
-
-.Selection_content {
-    margin-top: 3px;
-    margin-left: 10px;
-}
-
-.Selection__header {
-    border: 2px solid black;
-    width: 1000px;
-    height: 100px;
+    justify-content: center;
     align-items: center;
-}
-.Selection__header--headline {
-    text-align: center;
-    justify-content: center
-}
-.Selection__header--droplist {
-    align-self: flex-start;
-    align-items: center;
-    width: 100px;
-    margin-left: 15px;
-}
+    border: 2px solid black;
 
-.Selection__header--droplist--content {
-    position: absolute;
-    display: block;
-    background-color: blue;
-    z-index: 1;
 }
