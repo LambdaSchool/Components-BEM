@@ -1,0 +1,22 @@
+section {
+  width: 100%;
+  border: 5px solid black;
+  padding: 10px;
+}
+.Header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+.Header--dropdown {
+  border: 5px solid black;
+  max-height: 3em;
+  font-size: 2em;
+  text-align: center;
+}
+.Header--dropdown__center {
+}
+.Header--h1 {
+  font-size: 4em;
+  align-self: center;
+}

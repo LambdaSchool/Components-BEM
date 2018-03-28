@@ -1,8 +1,22 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 body {
-	box-sizing: border-box;
-	min-width: 300px;
-	margin: 0;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
 }
