@@ -6,3 +6,12 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+/* Create box enclosing all content */
+.Section {
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
