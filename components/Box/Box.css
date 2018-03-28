@@ -10,13 +10,17 @@
 .boxes__leftBox {
 	display: inline-block;
 	border: 2px black solid;
-	margin-right: 0px;
 	padding: 5px;
 }
 
 .boxes__rightBox {
 	display: inline-block;
 	border: 2px black solid;
-	margin-left: 0px;
 	padding: 5px;
+}
+
+@media (max-width: 560px) {
+	.boxes {
+		flex-direction: column;
+	}
 }
