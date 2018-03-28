@@ -1,5 +1,6 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
+@import './components/Dropdown/Dropdown.css';
 
 body {
 	box-sizing: border-box;
@@ -7,15 +8,4 @@ body {
 	margin: 0;
 	font-size: 62.5%;
 	font-size: 1.6rem;
-}
-
-.block {
-	display: flex;
-	justify-content: center;
-	border: 1px solid black;
-}
-
-.block__elem {
-	border: 1px solid black;
-	padding: 0 1.6rem;
 }
