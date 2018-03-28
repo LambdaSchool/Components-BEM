@@ -2,7 +2,8 @@
     width: 49%;
     height: 200px;
     border: 2px solid black;
-    display: inline-block;
+    float: left;
+    margin-right: 0;
 }
 
 .Box--2 {
