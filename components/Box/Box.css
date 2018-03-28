@@ -1,0 +1,11 @@
+.Block {
+    display: flex;
+    border: 5px solid black;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Block__Dropdown {
+    float: left;
+}
+
