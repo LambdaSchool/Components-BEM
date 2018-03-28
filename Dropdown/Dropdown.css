@@ -1,3 +1,7 @@
 .Header__dropdown {
-    text-align: center;
+    width: 8%;
+    height: 30px;
+    border: 3px solid black;
+    padding-left: 4px;
+    padding-top: 2px;
 }
