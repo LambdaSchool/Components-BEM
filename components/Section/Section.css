@@ -1,0 +1,6 @@
+.Block {
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+}

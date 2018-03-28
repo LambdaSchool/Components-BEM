@@ -1,11 +1,14 @@
-.Block {
-    display: flex;
-    border: 5px solid black;
-    flex-direction: row;
-    justify-content: center;
+.Block__Header {
+    align-items: center;
 }
 
 .Block__Dropdown {
-    float: left;
+    border: 2px solid black;
+    align-items: flex-start;
+}
+
+.Block__Content {
+    border: 2px solid black;
+    padding: 20px;
 }
 
