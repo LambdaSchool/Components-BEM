@@ -11,3 +11,14 @@
     border: 2px solid black;
     padding: 0 2% 1%;
 }
+
+@media (max-width: 400px) {
+    .container {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .section__text {
+        flex-direction: column;
+    }
+}
