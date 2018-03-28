@@ -1,0 +1,8 @@
+.Section {    
+    display: flex;
+    justify-content: center;
+}
+
+.Section__box {
+    border: 2px black solid;
+}
