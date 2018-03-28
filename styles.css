@@ -23,9 +23,13 @@ body {
 	width:49.7%;
 }
 
-.Block__Dropdown{
+.Dropdown--btn{
 	border: solid black 2px;
 	padding: 2px;
 	text-decoration: none;
 	color: black;
+}
+
+.Dropdown--content{
+	display: none;
 }
