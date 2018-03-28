@@ -1,0 +1,11 @@
+.Section {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+}
+
+@media (max-width: 400px) {
+    .Section {
+        flex-direction: column;
+    }
+}
