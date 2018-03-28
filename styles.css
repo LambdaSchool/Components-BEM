@@ -18,9 +18,9 @@ body {
 .container {
   display: grid;
   grid-template-areas:
-    "header"
-    "sect1"
-    "sect2";
+    "🤖"
+    "📕"
+    "📖";
   width: 100%;
 }
 
@@ -30,7 +30,7 @@ body {
   }
   .container {
     grid-template-areas:
-      "header header"
-      "sect1 sect2";
+      "🤖 🤖"
+      "📕 📖";
   }
 }

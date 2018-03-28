@@ -3,7 +3,7 @@ section {
   padding: 10px;
 }
 .Header {
-  grid-area: header;
+  grid-area: 🤖;
   display: grid;
   grid-template-areas: "dropdown heading .";
 }
@@ -23,11 +23,11 @@ section {
 }
 
 .Section1 {
-  grid-area: sect1;
+  grid-area: 📕;
 }
 
 .Section2 {
-  grid-area: sect2;
+  grid-area: 📖;
 }
 
 .content--heading {
