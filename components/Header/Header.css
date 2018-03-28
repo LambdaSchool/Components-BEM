@@ -20,7 +20,6 @@
 .Box__headDropdown--expanded {
   position: absolute;
   width: 100%;
-  display: none;
 }
 
 .Box__headDropUl {

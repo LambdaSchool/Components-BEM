@@ -1,4 +1,8 @@
 const headDropdown = document.querySelector('.Box__headDropdown');
 const headDropdownExpanded = document.querySelector('.Box__headDropdown--expanded');
 
-console.log(headDropdown, headDropdownExpnanded);
+headDropdown.addEventListener('click', () => {
+  headDropdownExpanded.classList.toggle('hidden');
+})
+
+console.log(headDropdown, headDropdownExpanded);
