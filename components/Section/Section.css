@@ -1,6 +1,8 @@
 .Section {
+  border: 1px solid black;
  display: flex;
- justify-content: space-around;
+ justify-content: center;
+ align-items: center;
 }
 
 .Section__header {
