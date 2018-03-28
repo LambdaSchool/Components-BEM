@@ -1,0 +1,29 @@
+.box{
+    display: flex;
+    max-width: 100%;
+    border: solid black 3px;
+    flex-direction: row;
+}
+
+.box__placeholder1{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1.5px;
+    width: 50%;
+    border-top: 0px;
+}
+.box__placeholder2{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1.5px;
+    border-top: 0px;
+    width: 50%;
+}
+.box__h3 {
+   font-size: 1.2rem;
+   margin-left: 5%;
+   width: 100%;
+}
+.box__p {
+    margin: 0 0 25px 5%;
+}
