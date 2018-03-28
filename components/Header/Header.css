@@ -1,7 +1,6 @@
 .Box__header {
   width: 100%;
   display: flex;
-  border-bottom: 2px solid black;
   align-items: center;
   justify-content: center;
 }
@@ -15,7 +14,7 @@
 .Box__headDropTitle {
   display: flex;
   justify-content: center;
-  border: 2px solid black;
+  border-width: 2px;
 }
 
 .Box__headDropdown--expanded {
@@ -25,13 +24,15 @@
 }
 
 .Box__headDropUl {
+  display: flex;
+  flex-flow: column;
   padding-left: 0;
   list-style: none;
-  border: 2px solid black;
   background: white;
+  border-width: 2px;
 }
 
-.Box__headDropLi {
+.Box__headDropA {
   padding: 5px 0 5px;
   display: flex;
   justify-content: center;
