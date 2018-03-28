@@ -1,8 +1,8 @@
 
-.Dropdown h4 {
+.Dropdown__button {
     margin-top: 30px;
     align-items: center;
-    width: 100%;
+    min-width: 160px;
     height: 30px;
     border: 3px solid black;
     padding-left: 12px;
@@ -10,3 +10,20 @@
     padding-right: 0;
  }
 
+.Dropdown__Menu {
+    visibility: hidden;
+    overflow: hidden;
+    transform-origin: top;
+    padding: 0;
+    list-style: none;
+    transform: scaleY(0);
+    left: 0;
+    margin-top: 2px;
+    top: 100%;
+    min-width: 90%;
+    transition: all .3s ease;
+}
+
+.show {
+    display: block;
+}
