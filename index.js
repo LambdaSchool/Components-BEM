@@ -1,1 +1,6 @@
-body.appendChild()
+class Box {
+    constructor(element) {
+        
+    }
+
+}
