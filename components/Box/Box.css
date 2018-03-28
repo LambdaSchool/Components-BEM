@@ -15,5 +15,13 @@
     /*align-items: flex-start;*/
 }
 
+.Box__DropdownContent {
+    display:none;
+    position: absolute;
+}
 
+/* Show the dropdown menu */
+.show {
+    display: block;
+}
 
