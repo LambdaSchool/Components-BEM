@@ -1,5 +1,6 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
+@import './components/Header/Header.css';
 
 body {
 	box-sizing: border-box;
