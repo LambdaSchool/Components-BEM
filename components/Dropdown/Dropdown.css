@@ -1,3 +1,19 @@
 .Dropdown {
     display: inline-block;
+    margin-left: 20px;
+}
+
+.Dropdown__btn {
+    border: 2px solid black;
+    height: 40px;
+}
+
+.Dropdown__list {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.Dropdown--active {
+    display: flex;
 }
