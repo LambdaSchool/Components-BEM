@@ -1,0 +1,27 @@
+.Dropdown{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 6%;
+    top: 35px;
+}
+.Dropbtn {
+    border: solid black 1px;
+    background: white;
+    height: 35px;
+}
+.dropdown__content {
+    display: none;
+}
+.dropdown__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid black 1px;
+    background: white;
+    margin-top: 10px;
+}
+.dropdown__a {
+    padding: 8px;
+}

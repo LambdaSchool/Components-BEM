@@ -1,0 +1,18 @@
+.Header {
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  .Block {
+    display: flex;  
+  }
+  
+  .Block__first {  
+    border: 2px solid black;
+  }
+  
+  .Block__second {
+    border: 2px solid black;
+  }
+  
