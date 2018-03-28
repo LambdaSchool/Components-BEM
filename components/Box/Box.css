@@ -2,22 +2,29 @@
     display: flex;
     border: 2px solid black;
     flex-direction: row;
-    /*justify-content: space-between;*/
+
 }
 
 .Box__Header {
 	border: 1px solid red;
-/*	margin: 0 auto;*/
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .Box__Dropdown {
     border: 2px solid black;
-    /*align-items: flex-start;*/
+    display: block;
+    font-size: 18px;
 }
 
 .Box__DropdownContent {
     display:none;
     position: absolute;
+}
+
+.Box__DropdownContent a {
+	display:flex;
+	flex-direction: column;
 }
 
 /* Show the dropdown menu */

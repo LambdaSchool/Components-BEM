@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<hml>
+<html>
 	<head>
 		<title>Introduction to the DOM</title>
 		<link rel="stylesheet" href="./styles.css">
@@ -7,14 +7,15 @@
 	</head>
 	<body>
 		<div class="Box"> <!-- Header Block -->
-			<div class="Box__Dropdown">
-				<button class="Box__DropdownBtn">Dropdown</button>
+			<button class="Box__Dropdown Box__DropdownBtn">
+				Dropdown
 				<div id="myDropdown" class="Box__DropdownContent">
 					<a href="#">Lambda</a>
 					<a href="#">Google</a>
 					<a href="#">MDN</a>
 				</div>
-			</div>
+			</button>
+
 			<h1 class="Box__Header">Header</h1>
 		</div>
 		<div class="Box"> <!-- Content Block -->
@@ -32,4 +33,4 @@
 			</div>
 		</div>
 	</body>
-</hml>
+</html>
