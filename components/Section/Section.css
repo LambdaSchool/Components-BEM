@@ -1,22 +1,39 @@
 section {
-  width: 100%;
   border: 5px solid black;
   padding: 10px;
 }
 .Header {
+  grid-area: header;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2em;
+  grid-template-areas: "dropdown heading .";
 }
 .Header--dropdown {
   border: 5px solid black;
-  max-height: 3em;
-  font-size: 2em;
-  text-align: center;
-}
-.Header--dropdown__center {
+  font-size: 1.5em;
+  grid-area: dropdown;
+  max-width: 70%;
+  max-height: 2.5em;
+  display: flex;
+  align-items: center;
 }
 .Header--h1 {
+  grid-area: heading;
   font-size: 4em;
-  align-self: center;
+  margin: 0px;
+}
+
+.Section1 {
+  grid-area: sect1;
+}
+
+.Section2 {
+  grid-area: sect2;
+}
+
+.content--heading {
+  font-size: 2em;
+}
+
+.content--blurb {
+  font-size: 1.4em;
 }
