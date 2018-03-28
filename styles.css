@@ -46,4 +46,9 @@ body {
 	width: 78px;
 }
 
+/* Upon click of button from index.js DropdownReveal will be displayed */
+.display {
+	display: flex;
+}
+
 
