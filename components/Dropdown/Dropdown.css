@@ -1,0 +1,16 @@
+.dropdown__stuff {
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.dropdown__button {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.dropdown__link {
+    margin: 0.3rem 1.6rem;
+}
