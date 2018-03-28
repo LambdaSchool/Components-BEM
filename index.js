@@ -6,9 +6,11 @@ class Dropdown {
     this.dropdownButton.addEventListener("click", this.showMenu.bind(this));
   }
 
+  // toggle showing Dropdown menu
   showMenu(event) {
     this.dropdownMenu.classList.toggle("Dropdown__menu--show");
   }
 }
 
+// fires Dropdown on page load
 window.onload = () => new Dropdown();
