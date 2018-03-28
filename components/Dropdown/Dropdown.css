@@ -1,0 +1,12 @@
+.Dropdown {
+  position: absolute;
+}
+
+.Dropdown__menu {
+  margin-left: 20px;
+}
+
+.Dropdown__menuTitle {
+  border: 2px black solid;
+  padding: 10px;
+}

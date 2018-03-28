@@ -1,7 +1,14 @@
 .Box {
-    border: 2px black solid;
+  border: 2px black solid;
+  display: flex;
+}
+
+.Box__header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;  
 }
 
 .Box__headerHeadline {
-    text-align: center;
+  text-align: center;
 }
