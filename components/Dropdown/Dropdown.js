@@ -1,13 +1,20 @@
 class dropdownButton {
     constructor(element){
         this.element = element;
-        console.log('hello!? this element??');
-        this.element.addEventListener('click', () => { this.openDropdown });
+        this.element.addEventListener('mouseenter', this.openDropdown);
+        this.element.addEventListener('click', this.closeDropdown);
     };
     openDropdown(){
-        console.log('hello');
         document.querySelector('.dropdown__stuff').style.display = 'flex';
+    }
+    closeDropdown(){
+        document.querySelector('.dropdown__stuff').style.display = 'none';
     }
 }
 
-const dropdown = new dropdownButton(document.querySelector('.dropdown__button'));
+let dropdown = document.querySelector('.dropdown__button')
+new dropdownButton(dropdown);
+
+
+
+//document.querySelector('.dropdown').style.marginRight = '50%';
