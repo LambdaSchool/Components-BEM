@@ -6,3 +6,26 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-left: 350px;
+}
+
+.dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.invisible {
+  display: none;
+}
