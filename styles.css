@@ -12,31 +12,51 @@ body {
 	display:flex;
 	flex-wrap:wrap;
 	border: solid black 2px;
+
 }
 .Block__Header{
-	justify-content: space-around;
-	align-items: center;
+	display:flex;
 	width:100%;
+	align-items: center;
+	text-align: center;
+
 }
 .Block--Body{
 	width:49.7%;
 }
 
+.Block__headerHeadline{
+	display: flex;
+	align-items: center;
+	margin-left: 40%;
+}
+
+.Block__Dropdown{
+	margin-left: 30px;
+}
 .Dropdown--btn{
 	border: solid black 2px;
 	padding: 2px;
 	text-decoration: none;
 	color: black;
 	cursor: pointer;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	padding-top:5px;
 }
 
 .Dropdown--content{
+
 	margin-top: 1px;
 	display: none;
 	flex-direction: column;
 	border: solid
-	z-index: 2;
+	z-index: 1;
 	border: solid black 2px;
+	position: absolute;
+	background: white;
+	width: 100px;
 }
 
 .Dropdown--link{

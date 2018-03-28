@@ -3,7 +3,7 @@ const DropC = document.querySelector('.Dropdown--content');
 
 
 
-const showContent = (event) =>{
+const showContent = () =>{
 
   if (DropC.style.display === 'none') {
        DropC.style.display = 'flex';
