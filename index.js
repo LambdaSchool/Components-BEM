@@ -21,7 +21,12 @@ let dropDown = document.querySelector('Box__DropdownBtn');
 class Dropdown {
 	constructor(el) {
 		this.element = el;
-		this.element.addEventListener('click', this.showContent);
+		this.element.addEventListener('click', () => { this.showContent()})
+	}
+	// Callback Function
+	showContent() {
+		dropDown.classList.toggle("show");
 	}
 	// Dropdown prototype
+
 }
