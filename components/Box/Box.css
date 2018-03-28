@@ -1,6 +1,5 @@
 .header__box {
     display: flex;
-    border: 2px solid blue;
 }
 
 .box__header {
@@ -11,11 +10,33 @@
 }
 
 .header__dropdown {
-    border: 2px solid black;
     float: left;
     align-self: center;
 }
 
 .box__title {
     font-weight: bold;
+}
+
+.dropdown__toggle {
+    width: 80px;
+    position: fixed;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.dropdown__list {
+    width: 80px;
+    position: fixed;
+    top: 50px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: white;
 }
