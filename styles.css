@@ -5,4 +5,50 @@ body {
 	box-sizing: border-box;
 	min-width: 300px;
 	margin: 0;
+	max-width: 1024px;
+}
+
+header {
+    display:flex;
+    width: 100%;
+	border: 2px solid black;
+}
+
+header .dropdown {
+    border: 2px solid black;
+    align-self: flex-start;
+}
+
+header .h1 {
+    font-size: 30px;
+    margin-left: 1000px;
+}
+
+header .dropdownFormat {
+	position: absolute;
+	margin-top:60px;
+	background-color: grey;
+}
+
+header .dropdownInvisible {
+	display:none;
+}
+
+.dropdownInvisibleVisible {
+	display:true;
+}
+
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    
+}
+
+.container .box {
+    width: 50%;
+    border: 2px black solid;
+    display:flex;
+    flex-direction: column;
+    padding: 10px 10px;
 }
