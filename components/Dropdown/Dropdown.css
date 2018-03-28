@@ -1,0 +1,7 @@
+.Dropdown--List {
+    display: flex;
+}
+.Dropdown--List a{
+    flex-direction: column;
+    align-items: center;
+}

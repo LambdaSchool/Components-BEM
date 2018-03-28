@@ -1,0 +1,22 @@
+.Section {
+    	box-sizing: border-box;
+	    display: inline-block;
+        width: 100%;
+    	margin: 0;
+        padding: 15px;
+    }
+    
+    .Section__Header {
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    
+    .Section__Bordered {
+        border: 1.5px solid black;
+    }
+ 
+    .Section__Half {
+            display: inline-block;
+            width: 49%;
+        }
