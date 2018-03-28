@@ -1,9 +1,10 @@
 /* The container around the dropdown menu */
+
 .Dropdown {
-  border: 20px solid black;
 }
 
 /* the actual button on the dropdown menu */
+
 .dropdown__button {
 
 }
@@ -12,4 +13,10 @@
 
 .dropdown__menu {
 
+}
+
+display: flex;
+}
+
+.dropdown__menu a {
 }
