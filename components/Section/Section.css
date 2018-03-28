@@ -1,5 +1,31 @@
 .Header {
-    text-align: center;
+    
     border: 2px solid black;
-    max-width: 1400px;
+    max-width: 800px;
+    width: 100%;
+    display:flex;
+    justify-content: start;
+    
+  }
+
+
+  .Header--alignLeft {
+    display: flex;
+    text-align: left;
+    align-self: center;
+  }
+
+  .Header--H3 {
+    margin-left: 250px;
+
+  }
+
+  .Header--button {
+    border: 3px solid black;
+    padding: 10px;
+    width: 95px;
+    height: 45px;
+    margin-left: 20px;
+    /* font-weight: bold; */
+    font-size: 14px;
   }
