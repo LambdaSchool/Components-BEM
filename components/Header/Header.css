@@ -1,0 +1,38 @@
+.Box__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Box__headDropdown {
+  position: absolute;
+  left: 40px;
+  width: 90px;
+}
+
+.Box__headDropTitle {
+  display: flex;
+  justify-content: center;
+  border-width: 2px;
+}
+
+.Box__headDropdown--expanded {
+  position: absolute;
+  width: 100%;
+}
+
+.Box__headDropUl {
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+  list-style: none;
+  background: white;
+  border-width: 2px;
+}
+
+.Box__headDropA {
+  padding: 5px 0 5px;
+  display: flex;
+  justify-content: center;
+}
