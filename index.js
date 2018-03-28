@@ -1,7 +1,6 @@
 // access dropDown button
 let dropDown = document.querySelector('.Box__DropdownContent');
 let dropButton = document.querySelector('.Box__DropdownBtn');
-let childDropdown = dropDown.children;
 // console.log(dropDown);
 // console.log(childDropdown);
 
