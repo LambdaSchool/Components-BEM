@@ -36,8 +36,10 @@
     padding: 10px;
     width: 95px;
     height: 45px;
-  
-    /* font-weight: bold; */
+    /* display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center; */
     font-size: 14px;
   }
   .Container--atag{
@@ -45,7 +47,6 @@
      top: 70px;
      left: 35px;
       display:flex;
-
       flex-direction: column;
       color:purple;
       z-index: 1;
@@ -54,5 +55,13 @@
       width: 90px;
       height: 100px;
       background: white;
-      /* display:none; */
+      /* display: none; */
   }
+
+.Display--none{
+  display: none;
+}
+
+.Display--yes{
+  display:block;
+}
