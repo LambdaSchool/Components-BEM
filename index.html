@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html>
- 	<head>	
-		<title>Components-BEM</title>
- 		<link rel="stylesheet" href="./styles.css">	 		
-		<script src="./index.js" async></script>
- 	</head>	 
+
+<head>
+	<title>Components-BEM</title>
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./index.js" async></script>
+</head>
 <!-- Using BEM, create the page with three components: `Section`, `Box`, and `Dropdown`.
-+Using ES6 class constructors, complete the `Dropdown` component functionality. -->
- 	<body>
-		<div class="Section Box">
-			<nav class="Box Block__nav">Dropdown</nav>
-			<h1 class="Block__h1">Header</h1>
+Using ES6 class constructors, complete the `Dropdown` component functionality. -->
+
+<body>
+	<div class="Section">
+		<div class="Navbar">
+			<div class="dropdown">
+				<button class="dropbtn">Dropdown
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="lambdaschool.com">Lambda</a>
+					<a href="google.com">Google</a>
+					<a href="https://developer.mozilla.org">MDN</a>
+
+				</div>
+			</div>
 		</div>
-		<div class="Section Box">
-			<div class="Block__placeholder"><h3 class="block__h3">Placeholder</h3>
-			<p class="Block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</p></div>
-		</div>		<div class="Section Box">
-			<div class="Block__placeholder"><h3 class="block__h3">Placeholder</h3>
-			<p class="Block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.</p></div>
+		<div class="Block__header" style:"border: 2px"><h1>Header</h1></div>
+	</div>
+	<div class="Section">
+		<div class="Block Box">
+			<div class="Block__placeholder">
+				<h3 class="Block__h3">Placeholder</h3>
+				<p class="Block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+					lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+					libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+					feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+					habitasse platea dictumst.</p>
+			</div>
 		</div>
- 	</body>	
+	</div>
+	<div class="Section">
+		<div class="Block Box">
+			<div class="Block__placeholder">
+				<h3 class="Block__h3">Placeholder</h3>
+				<p class="Block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+					lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+					libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+					feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+					habitasse platea dictumst.</p>
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>
