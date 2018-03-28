@@ -10,4 +10,4 @@ class ddmenu {
     }
 }
 
-window.onload = () => new ddmenu();
+new ddmenu();
