@@ -21,6 +21,8 @@
     margin-top: 10px;
 }
 .dropdown__a {
-    padding: 8px;
-    text-align: center;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
 }
