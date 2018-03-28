@@ -14,7 +14,6 @@ body {
 	border: solid black 2px;
 }
 .Block__Header{
-	display:flex;
 	justify-content: space-around;
 	align-items: center;
 	width:100%;
@@ -28,8 +27,19 @@ body {
 	padding: 2px;
 	text-decoration: none;
 	color: black;
+	cursor: pointer;
 }
 
 .Dropdown--content{
+	margin-top: 1px;
 	display: none;
+	flex-direction: column;
+	border: solid
+	z-index: 2;
+	border: solid black 2px;
+}
+
+.Dropdown--link{
+	text-decoration: none;
+	color: inherit;
 }

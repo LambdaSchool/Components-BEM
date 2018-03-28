@@ -1,9 +1,15 @@
 const DropdownB = document.querySelector('.Dropdown--btn');
-const DropdownC = document.querySelector('.Dropdown--content');
+const DropC = document.querySelector('.Dropdown--content');
 
-  const showContent = () =>{
-    DropdownC.style.display = 'flex';
 
-  };
+
+const showContent = (event) =>{
+
+  if (DropC.style.display === 'none') {
+       DropC.style.display = 'flex';
+   } else {
+       DropC.style.display = 'none';
+   }
+};
 
 DropdownB.addEventListener('click', showContent);
