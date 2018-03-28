@@ -1,0 +1,15 @@
+
+.placeholders {
+    padding: 20px 15px;
+    border: 3px solid black;
+}
+
+.placeholders__header {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.placeholders__text {
+    line-height: 1.5;
+}
