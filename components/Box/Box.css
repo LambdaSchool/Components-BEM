@@ -1,10 +1,8 @@
 .Box {
-    display: flex;
-    flex-direction: row;
     border: 2px solid black;
-    flex-grow: 1;
+    padding: 20px;
 }
 
-.Box__header {
-    
+.Box__headerHeadline {
+    font-size: 22px;
 }
