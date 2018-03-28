@@ -51,4 +51,10 @@ body {
 	display: flex;
 }
 
+/* Assigned direction Box within Boxes */
+.Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
 
