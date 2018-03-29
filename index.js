@@ -1,6 +1,6 @@
-let dropdown = document.querySelectorAll('.Dropdown');
+let dropdown = document.querySelector('.Dropdown');
 
-<<<<<<< HEAD
+
 class Dropdown {
   constructor(element) {
     this.element = element;
@@ -11,11 +11,8 @@ class Dropdown {
 
   dropIt() {
     this.element.classList.toggle('Dropdown--display');
+    console.log('click');
   };
 };
 
-dropdown = Array.from(dropdown).map(element => {
-  return new Dropdown(element);
-});
-=======
->>>>>>> 9b5f74b11e8faf914e97ea89042f54afa368ec03
+dropdown = new Dropdown(dropdown);
