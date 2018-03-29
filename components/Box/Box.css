@@ -1,0 +1,14 @@
+.Box {
+    padding: 20px 15px;
+    border: 3px solid black;
+}
+
+.Placeholders__Header {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.Placeholders__Text {
+    line-height: 1.5;
+}
