@@ -1,6 +1,7 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
 
+
 body {
 	box-sizing: border-box;
 	min-width: 300px;
@@ -14,7 +15,7 @@ header {
 	border: 2px solid black;
 }
 
-header .dropdown {
+header .Dropdown {
     border: 2px solid black;
     align-self: flex-start;
 }
@@ -24,18 +25,15 @@ header .h1 {
     margin-left: 1000px;
 }
 
-header .dropdownFormat {
+header .Dropdown__content {
 	position: absolute;
 	margin-top:60px;
 	background-color: grey;
+	display: none;
 }
 
-header .dropdownInvisible {
-	display:none;
-}
-
-.dropdownInvisibleVisible {
-	display:true;
+.Dropdown--active .Dropdown__content {
+	display:block;
 }
 
 .container {
