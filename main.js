@@ -13,3 +13,7 @@ class Dropdown {
 
 const dd = new Dropdown(dropdown, reveal);
 
+// Without Components //
+dropdown.addEventListener('click', (event) => {
+    reveal.classList.toggle('display');
+});
