@@ -1,4 +1,4 @@
-.Section__Dropdown{
+.Section__Dropdown {
     position: absolute;
 }
 
@@ -17,13 +17,12 @@
     border: 2.5px solid black;
 }
 
-.Dropdown--active{
+.Dropdown--active {
     display: inline;
 }
 
 .Dropdown__link {
     text-decoration: none;
     padding: 5px;
-    color:black;
-
+    color: black;
 }
