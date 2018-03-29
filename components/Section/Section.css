@@ -1,0 +1,30 @@
+.Dropdown{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 0.2%;
+    top: 4%;
+}
+.Dropbtn {
+    border: solid black;
+    background: white;
+    
+    padding:  11px 11px 11px 11px;
+}
+
+.dropdown__content{
+    display: none;    
+    border: solid black;
+    background: white;
+    margin-top: 10px;
+}
+.dropdown__a {
+    display: block;   
+    text-align: left;    
+    padding: 7px 7px;
+}
+
+.Dropdown--open {
+    display: block;
+}
