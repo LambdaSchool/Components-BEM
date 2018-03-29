@@ -1,0 +1,35 @@
+.Dropdown {
+	display: inline-block;
+	position: absolute;
+	margin-left: 2%;
+
+	&__button {
+		border: 2px solid black;
+		background-color: white;
+		padding: 13px;
+		font-weight: bold;
+	}
+
+	&__content {
+		position: absolute;
+		display: none;
+		margin-top: 10px;
+		border: 2px solid black;
+		background-color: white;
+		padding: 13px;
+
+		&--active {
+			display: block;
+		}
+	}
+
+	&__link {
+		display: none;
+		margin-bottom: 10px;
+
+		&--active {
+			display: block;
+		}
+	}
+
+}
