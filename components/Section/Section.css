@@ -1,5 +1,3 @@
-.Section {
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: row wrap;
-    } 
+section {
+	border: 1px solid black;
+}
