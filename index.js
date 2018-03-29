@@ -1,5 +1,5 @@
-const button = document.querySelector('.Dropdown__button')
-const dropmenu = document.getElementById('dropDownLinks')
+let button = document.querySelector('.Dropdown__button')
+let dropmenu = document.getElementById('dropDownLinks')
 
 const dropEvent = (event) => {
     dropmenu.classList.toggle('Dropdown__content--show');
@@ -8,14 +8,15 @@ const dropEvent = (event) => {
 button.addEventListener('click', dropEvent);
 
 
-// class Dropdown {
-//     constructor (element) {
-//         this.element = element;
-//         this.element.addEventListener('click', () => this.dropDownEvent()})
+// class Dropdown12 {
+//     constructor () {
+//         this.addEventListener('click', () => { this.dropEvent() })
 //     }
-//     dropDownEvent(){
-//         this.element.toggle('Dropdown--show')
+
+//     dropEvent(event) {
+//         dropmenu.classList.toggle('Dropdown__content--show');
 //     }
 // }
-// dropmenu = new Dropdown(element);
+
+// button = new Dropdown12();
 

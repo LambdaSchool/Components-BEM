@@ -8,6 +8,12 @@
 }
 
 .header {
-	margin-Left: 35%;
+	margin-left: 35%;
 	
+}
+
+@media (max-width: 400px) {
+    .header {
+        margin-left: 10%;
+    }
 }
