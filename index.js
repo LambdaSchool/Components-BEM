@@ -6,7 +6,7 @@ class dropDown {
         this.drop.addEventListener('click', this.tog.bind(this));
     }
     tog() {
-        this.menu.classList.toggle('dropdown__content');
+        this.menu.classList.toggle('dropdown--open');
     }
 }
 

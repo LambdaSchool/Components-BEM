@@ -15,13 +15,16 @@
 
 .dropdown__content{
     display: none;    
-    border: solid black 1px;
+    border: solid black;
     background: white;
     margin-top: 10px;
 }
 .dropdown__a {
+    display: block;   
+    text-align: left;    
+    padding: 7px 7px;
+}
+
+.Dropdown--open {
     display: block;
-    text-align: left;
-    text-decoration: none;
-    color: black;
 }
