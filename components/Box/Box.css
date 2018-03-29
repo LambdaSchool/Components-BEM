@@ -1,15 +1,4 @@
-.header__box {
-    display: flex;
-}
-
-.box__header {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    text-align: center;
-    flex-grow: 1;
-}
-
-.header__dropdown {
+.box__dropdown {
     float: left;
     align-self: center;
 }
@@ -18,7 +7,7 @@
     font-weight: bold;
 }
 
-.dropdown__toggle {
+.box__dropdown__toggle {
     width: 80px;
     position: fixed;
     border: 2px solid black;
@@ -28,7 +17,7 @@
     margin: 10px .63%;
 }
 
-.dropdown__list {
+.box__dropdown__list {
     width: 80px;
     position: fixed;
     top: 50px;

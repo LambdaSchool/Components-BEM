@@ -3,11 +3,22 @@
     flex-direction: column;
 }
 
+.section__header {    
+    display: flex;
+}
+
+.section__header__box {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    flex-grow: 1;    
+}
+
 .section__text {
     display: flex;
 }
 
-.section__box {
+.section__text__box {
     border: 2px solid black;
     padding: 0 2% 1%;
 }

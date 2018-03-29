@@ -1,5 +1,5 @@
-const list = document.querySelector('.dropdown__list');
-const toggle = document.querySelector('.dropdown__toggle');
+const list = document.querySelector('.box__dropdown__list');
+const toggle = document.querySelector('.box__dropdown__toggle');
 class Dropdown {
     constructor(element) {
         this.element = element
