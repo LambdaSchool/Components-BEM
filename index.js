@@ -1,18 +1,18 @@
+let dropdown = document.querySelectorAll('.Dropdown');
 
-function myFunction() {
-    document.getElementById("dropstuff").classList.toggle("show");
-}
+class Dropdown {
+  constructor(element) {
+    this.element = element;
+    this.element.addEventListener('click', () => {
+      this.dropIt();
+    });
+  };
 
-window.onclick = function(event) {
-  if (!event.target.matches('.Dropdown__menu')) {
+  dropIt() {
+    this.element.classList.toggle('Dropdown--display');
+  };
+};
 
-    var dropdowns = document.getElementsByClassName("Dropdown__items");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+dropdown = Array.from(dropdown).map(element => {
+  return new Dropdown(element);
+});

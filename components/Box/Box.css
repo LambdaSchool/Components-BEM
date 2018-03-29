@@ -5,14 +5,14 @@
 }
 
 .Box__block {
-  border: 2px solid black; */
+  	border: 2px solid black; 
 }
 
 .Box__h3 {
-  padding-left: 15px
+  	padding-left: 15px
 }
 
 .Box__p {
-  padding-left: 15px;
-  padding-right: 15px;
+  	padding-left: 15px;
+  	padding-right: 15px;
 }
