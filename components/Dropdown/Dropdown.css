@@ -1,28 +1,29 @@
-.Dropdown {
+.Section__Dropdown{
     position: absolute;
-  }
-  
-  .Dropdown__button {
+}
+
+.Dropdown__button {
     padding: 15px;
     background-color: white;
     border: 2.5px solid black;
-  
-  }
-  
-  .Dropdown__content {
+}
+
+.Dropdown__content {
     position: absolute;
     background-color: white;
     display: none;
     margin-top: 10px;
     padding: 15px;
     border: 2.5px solid black;
-  }
-  
-  .Dropdown__link {
-    display: inline-block;
-    margin-bottom: 10px;
-  }
-  
-  .Dropdown--active {
-    display: block;
-  }
+}
+
+.Dropdown--active{
+    display: inline;
+}
+
+.Dropdown__link {
+    text-decoration: none;
+    padding: 5px;
+    color:black;
+
+}
