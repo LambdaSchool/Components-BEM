@@ -9,7 +9,6 @@
 }
 
 .Dropdown__list {
-    /* display: flex; */
     flex-direction: column;
     display: none;
     margin-top: 10px;
