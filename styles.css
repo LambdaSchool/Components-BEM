@@ -6,3 +6,30 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Block{
+    display:flex;
+    flex-wrap:wrap;
+	border: solid black 2px;
+	width:100%;
+}
+.Block__Header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+
+.Block__Dropdown {
+	border: solid black 2px;
+	padding: 2px;
+}
+
+.Block--Body{
+    width:49.7%;
+
+}
+
+.Dropdown--Content {
+	display: none;
+}
