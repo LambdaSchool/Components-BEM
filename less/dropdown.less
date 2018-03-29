@@ -1,35 +1,34 @@
 .Dropdown {
 	position: absolute;
 	margin-left: 2%;
-}
 
-.Dropdown__button {
-	position: absolute;
-	border: 2px solid black;
-	background-color: white;
-	padding: 13px;
-	font-weight: bold;
-}
+	&__button {
+		position: absolute;
+		border: 2px solid black;
+		background-color: white;
+		padding: 13px;
+		font-weight: bold;
+	}
 
-.Dropdown__hidden {
-	display: none;
-	a {
+	&__hidden {
 		display: none;
+		a {
+			display: none;
+		}
+	}
+
+	&__options--click {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		margin-top: 60px;
+		border: 2px solid black;
+		width: 96px;
+		background-color: white;
+
+		a {
+			margin: 5px;
+			padding-left: 10px;
+		}
 	}
 }
-
-.Dropdown__options--click {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	margin-top: 60px;
-	border: 2px solid black;
-	width: 96px;
-	background-color: white;
-
-	a {
-		margin: 5px;
-		padding-left: 10px;
-	}
-}
-
