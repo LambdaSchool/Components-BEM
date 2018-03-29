@@ -1,0 +1,76 @@
+.padding-1,
+.Header,
+.Container__Section,
+.BtnContainer__dropdownbtn {
+  padding: 1rem;
+}
+.centerText,
+.Header__Text,
+.BtnContainer__listItem {
+  text-align: center;
+}
+.displayColumn {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.BtnContainer--displayBtn {
+  display: relative;
+}
+.BtnContainer--displayNone {
+  display: none;
+}
+.Container,
+.Header {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 2px solid black;
+}
+.Header {
+  position: relative;
+}
+.Header__Text {
+  width: 100%;
+}
+.Container__Section {
+  width: 50%;
+}
+.Container__Section:first-child {
+  border-right: 4px solid black;
+}
+.BtnContainer {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  display: inline-block;
+  z-index: 1;
+}
+.BtnContainer__dropdownbtn {
+  cursor: pointer;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.BtnContainer__DropdownContent {
+  background: white;
+  border: 2px solid black;
+  padding: 0.5rem;
+}
+.BtnContainer__listItem {
+  display: block;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+.BtnContainer__listItem:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+.BtnContainer__listItem:hover {
+  border-left: 2px solid black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 300px;
+}

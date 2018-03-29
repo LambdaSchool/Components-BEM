@@ -1,0 +1,31 @@
+.BtnContainer {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  display: inline-block;
+  z-index: 1;
+  &__dropdownbtn {
+    cursor: pointer;
+    border-radius: 0;
+    border: 2px solid black;
+    &:extend(.padding-1);
+  }
+  &__DropdownContent {
+    background: white;
+    border: 2px solid black;
+    padding: 0.5rem;
+  }
+  &__listItem{
+    display: block;
+    width: 100%;
+    &:extend(.centerText);
+    color: black;
+    text-decoration: none;
+    &:not(:last-child) {
+      margin-bottom: 0.6rem;
+    }
+    &:hover {
+      border-left: 2px solid black
+    }
+  }
+}

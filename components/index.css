@@ -1,0 +1,67 @@
+.padding-1,
+.Header,
+.Container__Section,
+.BtnContainer__dropdownbtn {
+  padding: 1rem;
+}
+.centerText,
+.Header__Text,
+.BtnContainer__listItem {
+  text-align: center;
+}
+.displayColumn,
+.BtnContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.BtnContainer--displayBtn {
+  display: relative;
+}
+.BtnContainer--displayNone {
+  display: none;
+}
+.Container,
+.Header {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 2px solid black;
+}
+.Header__Text {
+  width: 100%;
+}
+.Container__Section {
+  width: 50%;
+}
+.Container__Section:first-child {
+  border-right: 4px solid black;
+}
+.BtnContainer__dropdownbtn {
+  border-radius: 0;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.BtnContainer__DropdownContent {
+  border: 2px solid black;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+.BtnContainer__listItem {
+  color: black;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+  width: 100%;
+}
+.BtnContainer__listItem:hover {
+  border-left: 2px solid black;
+  margin-left: 0.4rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 300px;
+}
