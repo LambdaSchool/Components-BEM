@@ -36,6 +36,7 @@
     padding: 10px;
     width: 95px;
     height: 45px;
+    background:white;
     /* display: flex;
     align-self: center;
     justify-content: center;
@@ -52,9 +53,15 @@
       text-decoration: underline;
       border: 3px solid black;
       width: 90px;
-      height: 100px;
+      height: 90px;
       background: white;
       /* display: none; */
+  }
+  .Container__atag{
+  display:flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
   }
 
 .Container--none{
@@ -63,4 +70,7 @@
 
 .Container--yes{
   display:flex;
+}
+.Block__textParagraph{
+  font-size:11px;
 }
