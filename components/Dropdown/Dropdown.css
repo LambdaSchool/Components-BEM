@@ -1,3 +1,4 @@
+/* button */
 .Dropdown__button {
     background-color: #3498DB;
     color: white;
@@ -6,6 +7,7 @@
     border: none;
     cursor: pointer;
     justify-content: flex-start;
+    margin-left: 10%;
 }
 
 /* position of the dropdown conent */
@@ -33,7 +35,7 @@
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.Dropdown--show {
+.Dropdown__content--show {
     display:block;}
 
 /* Change color of dropdown links on hover

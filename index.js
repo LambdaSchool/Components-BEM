@@ -1,13 +1,11 @@
-const dropmenu = document.getElementById('.dropdown__content')
+const button = document.querySelector('.Dropdown__button')
+const dropmenu = document.getElementById('dropDownLinks')
 
 const dropEvent = (event) => {
-    event.stopPropagation();
-    console.log('dropdown is working');
-    event.target.classList.toggle('Dropdown--show');
+    dropmenu.classList.toggle('Dropdown__content--show');
 }
 
-
-dropmenu.addEventListener('click', dropEvent);
+button.addEventListener('click', dropEvent);
 
 
 // class Dropdown {
