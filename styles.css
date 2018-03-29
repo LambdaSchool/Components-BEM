@@ -73,6 +73,8 @@ body {
 	}
 	.dropdown__menu {
 		position: absolute;
+		min-width: 100%;
+		/* background: transparent 50%; */
 	}
 
 	.content {
