@@ -1,14 +1,28 @@
-const navButtons = document.getElementsByClassName('.Box__navButtons');
-let navButtonOff = false;
+// ________ VARIABLES ________
+const navButtons = document.getElementById('navButtons');
+const navDropdown = document.getElementById('navDropdown');
+let navButtonOn = true;
+let cursor = 'default';
 
+// ________ NAV DROPDOWN ________
 function displayNavButtons() {
-    // navButtonOff = !navButtonOff;
-    // if (!navButtonOff){
-         
-    // }
-    // else navButtons.style.display = 'none';
+    navButtonOn = !navButtonOn;
+    if (!navButtonOn){
+        navButtons.style.display = 'none'; 
+    }
+    else navButtons.style.display = 'flex';
+}
+
+function cursorDefault() {
+    document.body.style.cursor = 'default';
+}
+
+function cursorDropdown() {
+    document.body.style.cursor = 's-resize';
 }
 
 console.log(navButtons);
 
-//navButtons.style.display = 'flex';
+navDropdown.addEventListener('mouseover', cursorDropdown);
+navDropdown.addEventListener('mouseout', cursorDefault);
+navDropdown.addEventListener('click', displayNavButtons);
