@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Introduction to the DOM</title>
 		<link rel="stylesheet" href="css/index.css">
+		<script type="text/javascript" src="./index.js" async></script>
 	</head>
 	<body>
 
@@ -11,35 +12,31 @@
 			
 			<header class="Box__header">
 				<div class="Dropdown">
-					<button class="Dropdown__button">Dropdown</button>
-					<div class="Dropdown__options--click" id="toggle">
-						<a href="#">Lambda</a>
-						<a href="#">Google</a>
-						<a href="#">MDN</a>
+					<div class="Dropdown__button">Dropdown</div>
+					<div class="Dropdown__content">
+						<a class="Dropdown__link" href="#">Lambda</a>
+						<a class="Dropdown__link" href="#">Google</a>
+						<a class="Dropdown__link" href="#">MDN</a>
 					</div>
 				</div> <!-- end of dropdown -->
-				<div class="Box__header--headline">
-					<h1 class="Box__header--title">Header</h1>
-				</div>
+				<h1 class="Section__header">Header</h1>
 			</header>
 
-			<div class="Section">
-				<div class="Section__subSection--left">
-					<h3 class="Section__subSection--placeholder">Placeholder</h3>
-					<p class="Section__subSection--content">
+			<div class="Section Section--bordered">
+				<div class="Box--left">
+					<h3 class="Box__title">Placeholder</h3>
+					<p class="Box__content">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.
 					</p>
 				</div>
-				<div class="Section__subSection--right">
-					<h3 class="Section__subSection--placeholder">Placeholder</h3>
-					<p class="Section__subSection--content">
+				<div class="Box--right">
+					<h3 class="Box__title">Placeholder</h3>
+					<p class="Box__content">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse platea dictumst.
 					</p>
 				</div>
 			</div>
 
 		</div> <!-- end of class Box -->
-
-		<script type="text/javascript" src="./index.js" async></script>
 	</body>
 </hml>

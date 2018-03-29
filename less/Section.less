@@ -1,19 +1,23 @@
 .Section {
+	box-sizing: border-box;
 	border: 1px solid black;
 	display: flex;
+	width: 100%;
+	margin: 0;
+	position: relative;
 
-	&__subSection--left {
-		display: flex-column;
-		padding: 0 2%;
-		border-right: 2px solid black;
-		border-top: 2px solid black;
+	&__header {
+		text-align: center;
+		font-weight: bold;
 	}
 
-	&__subSection--right {
-		display: flex-column;
-		padding: 0 2%;
-		border-left: 2px solid black;
-		border-top: 2px solid black;
+	&--bordered {
+		border-top: none;
+		border: 2px solid black;
+
+		&:first-of-type {
+			border-top: 2.5px solid black;
+		}
 	}
 
 	@media @phone {

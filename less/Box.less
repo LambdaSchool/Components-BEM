@@ -8,7 +8,19 @@ body {
 	border: 2px solid black;
 }
 
-.Box__header--headline {
-	position: relative;
-	text-align: center;
+.Box {
+	&--left {
+		border-right: 1.5px solid black;
+	}
+	&--right {
+		border-left: 1.5px solid black;
+	}
+	&__title {
+		padding: 15px 25px 0;
+		margin: 0;
+	}
+	&__content {
+		padding: 15px 25px 15px;
+		margin: 0;
+	}
 }

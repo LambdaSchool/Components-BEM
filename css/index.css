@@ -6,55 +6,67 @@ body {
 .container {
   border: 2px solid black;
 }
-.Box__header--headline {
-  position: relative;
-  text-align: center;
+.Box--left {
+  border-right: 1.5px solid black;
+}
+.Box--right {
+  border-left: 1.5px solid black;
+}
+.Box__title {
+  padding: 15px 25px 0;
+  margin: 0;
+}
+.Box__content {
+  padding: 15px 25px 15px;
+  margin: 0;
 }
 .Dropdown {
+  display: inline-block;
   position: absolute;
   margin-left: 2%;
 }
 .Dropdown__button {
-  position: absolute;
   border: 2px solid black;
   background-color: white;
   padding: 13px;
   font-weight: bold;
 }
-.Dropdown__hidden {
-  display: none;
-}
-.Dropdown__hidden a {
-  display: none;
-}
-.Dropdown__options--click {
+.Dropdown__content {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  margin-top: 60px;
+  display: none;
+  margin-top: 10px;
   border: 2px solid black;
-  width: 96px;
   background-color: white;
+  padding: 13px;
 }
-.Dropdown__options--click a {
-  margin: 5px;
-  padding-left: 10px;
+.Dropdown__content--active {
+  display: block;
+}
+.Dropdown__link {
+  display: none;
+  margin-bottom: 10px;
+}
+.Dropdown__link--active {
+  display: block;
 }
 .Section {
+  box-sizing: border-box;
   border: 1px solid black;
   display: flex;
+  width: 100%;
+  margin: 0;
+  position: relative;
 }
-.Section__subSection--left {
-  display: flex-column;
-  padding: 0 2%;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
+.Section__header {
+  text-align: center;
+  font-weight: bold;
 }
-.Section__subSection--right {
-  display: flex-column;
-  padding: 0 2%;
-  border-left: 2px solid black;
-  border-top: 2px solid black;
+.Section--bordered {
+  border-top: none;
+  border: 2px solid black;
+}
+.Section--bordered:first-of-type {
+  border-top: 2.5px solid black;
 }
 @media (max-width: 400px) {
   .Section {
