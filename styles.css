@@ -6,3 +6,79 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.header {
+	width: 70%;
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.dropdown {
+	/* position: inherit; */
+	margin-bottom: 10px;
+}
+
+.dropdown__button {
+	background-color: white;
+	padding: 10px;
+	max-width: max-content;
+	font-size: 16px;
+    border: 1px solid black;
+    color: black;
+	cursor: pointer;
+}
+
+.dropdown__menu {
+	display: none;
+	margin-top: 3px;
+	background-color: white;
+	flex-direction: column;
+	max-width: 100%;  /* width: 198px; */
+	border: 1px solid black;
+}
+
+.dropdown__menu--show {
+	display: flex;
+}
+
+.dropdown__menu a {
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.dropdown__menu a:hover {
+	background-color: black;
+	color: white;
+}
+
+.content {
+	flex-direction: column;
+	max-width: 70%;
+}
+
+.content__block {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+@media(min-width: 400px) {  
+	.dropdown {
+		position: absolute;
+		left: 10px;
+		top: 10px;
+	}
+	.dropdown__menu {
+		position: absolute;
+		min-width: 100%;
+		/* background: transparent 50%; */
+	}
+
+	.content {
+		display: flex;
+		flex-direction: row;
+	}
+}
