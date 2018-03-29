@@ -1,9 +1,81 @@
 <!DOCTYPE html>
-<hml>
-	<head>
-		<title>Introduction to the DOM</title>
-		<link rel="stylesheet" href="./styles.css">
-	</head>
-	<body>
-	</body>
-</hml>
+<html>
+
+<head>
+	<title>Introduction to the DOM</title>
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./components/Dropdown.js" defer="true"></script>
+</head>
+
+<body>
+	<div class="section">
+		<div class="section__header">
+			<!-- needed extra div for display: flex; to properly center header -->
+			<div class="section__header__box">
+				<div class="box__dropdown">
+					<div class="box__dropdown__toggle">
+						Dropdown
+					</div>
+
+					<div class="box__dropdown__list toggleList">
+						<a href="#">Lambda</a>
+						<a href="#">Google</a>
+						<a href="#">MDN</a>
+					</div>
+					<!-- invisible list that shows upon dropdown being clicked -->
+				</div>
+
+				<div class="section__header__boxHeader">
+					<h1>Header</h1>
+				</div>
+			</div>
+			<!-- section__header__box -->
+		</div>
+		<!-- section__header -->
+
+		<div class="section__text">
+			<div class="section__text__box">
+				<div class="box__title">
+					<h3>PlaceHolder</h3>
+				</div>
+
+				<div class="box__content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+						lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+						libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+						feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+						habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis
+						quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat.
+						Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris
+						accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et
+						elit at consequat. In hac habitasse platea dictumst.
+					</p>
+				</div>
+			</div>
+			<!-- section__text__box left box (top on mobile)-->
+			<div class="section__text__box">
+				<div class="box__title">
+					<h3>PlaceHolder</h3>
+				</div>
+
+				<div class="box__content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+						lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
+						libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
+						feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
+						habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis
+						quis, facilisis facilisis lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat.
+						Curabitur cursus mattis libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris
+						accumsan urna nec augue feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et
+						elit at consequat. In hac habitasse platea dictumst.
+					</p>
+				</div>
+			</div>
+			<!-- section__text__box right box (bottom on mobile)-->
+		</div>
+		<!-- section__text -->
+	</div>
+	<!-- main section -->
+</body>
+
+</html>
