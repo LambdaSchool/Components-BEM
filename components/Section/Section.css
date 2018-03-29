@@ -1,0 +1,20 @@
+.Section {
+    border: 2px solid black;
+
+}
+
+.Section__header {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: none;
+}
+
+@media(min-width: 401px){
+    .Section__info {
+        display: flex;
+        flex-direction: row;
+        align-self: stretch;
+        justify-items: stretch;
+    }
+}
