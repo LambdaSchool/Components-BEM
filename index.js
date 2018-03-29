@@ -2,20 +2,48 @@ class Dropdown {
 	constructor(element) {
 		this.element = element;
 
-		this.element.addEventListener('click', function() {
-			document.querySelector('.Dropdown__options--click').style.display = 'relative';
-		});
+		this.element.addEventListener('click', () => {this.dropdownOptions()});
 	}
 
-	// dropdownOptions() {
-	// 	this.addEventListener('click', function() {
-	// 		document.querySelector('.Dropdown__options--click').style.display = 'relative';
-	// 	});
-	// }
+	dropdownOptions() {
+		document.querySelector('#toggle').classList.toggle('Dropdown__hidden');
+		document.querySelector('#toggle').classList.toggle('Dropdown__options--click');
+	}
 
 }
 
-const address = document.querySelector('.Dropdown__button');
-const dropdown = new Dropdown(address);
+const address = document.querySelector('#toggle');
+new Dropdown(address);
 
-dropdown();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const button = document.querySelector('button');
+
+// const eventHandler = function(x) {
+// 	x.classList.toggle('Dropdown__hidden');
+// 	x.classList.toggle('Dropdown__options--click');
+// }
+
+// const clicker = function(x) {
+// 	x.addEventListener('click', function() {
+// 		eventHandler(x);
+// 	});
+// };
+
+//console.log(button);
+
+// clicker(button);

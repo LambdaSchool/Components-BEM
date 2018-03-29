@@ -21,9 +21,15 @@ body {
   padding: 13px;
   font-weight: bold;
 }
+.Dropdown__hidden {
+  display: none;
+}
+.Dropdown__hidden a {
+  display: none;
+}
 .Dropdown__options--click {
   position: absolute;
-  display: none;
+  display: flex;
   flex-direction: column;
   margin-top: 60px;
   border: 2px solid black;
