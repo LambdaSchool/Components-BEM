@@ -3,50 +3,43 @@
 
 <head>
 	<title>Components-BEM</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./styles.css">
 	<script src="./index.js" async></script>
 </head>
-<!-- Using BEM, create the page with three components: `Section`, `Box`, and `Dropdown`.
-Using ES6 class constructors, complete the `Dropdown` component functionality. -->
 
 <body>
-	<div class="Section Box">
-		<div class="Navbar dropdown">
-			<button onclick="Toggle()" class="dropbtn">Dropdown</button>
-			<div id="myDropdown" class="dropdown-content">
-				<a href="lambdaschool.com">Lambda</a>
-				<a href="google.com">Google</a>
-				<a href="https://developer.mozilla.org">MDN</a>
+	<section class="header">
+		<div class="dropdown">
+			<button class="dropdown__button">Dropdown</button>
+			<div class="dropdown__menu">
+				<a href="http://">Lambda</a>
+				<a href="http://">Google</a>
+				<a href="http://">MDN</a>
 			</div>
 		</div>
-		<div class="Block__header">
-			<h1>Header</h1>
+		<div class="header__heading">
+			<h1>Heading</h1>
 		</div>
-	</div>
-	<div class="Section">
-		<div class="Block Box">
-			<div class="Block__placeholder">
-				<h3 class="Block__h3">Placeholder</h3>
-				<p class="Block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
-					lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
-					libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
-					feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
-					habitasse platea dictumst.</p>
-			</div>
+	</section>
+	<section class="content">
+		<div class="content__block">
+			<h1 class="content__header">Placeholder</h1>
+			<p class="content__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+				lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero,
+				at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat
+				porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse
+				platea dictumst.</p>
 		</div>
-	</div>
-	<div class="Section">
-		<div class="Block Box">
-			<div class="Block__placeholder">
-				<h3 class="Block__h3">Placeholder</h3>
-				<p class="Block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
-					lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis
-					libero, at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue
-					feugiat porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac
-					habitasse platea dictumst.</p>
-			</div>
+		<div class="content__block">
+			<h1 class="content__header">Placeholder</h1>
+			<p class="content__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec felis quis, facilisis facilisis
+				lectus. Nulla ac orci pretium, condimentum orci quis, accumsan nisi. Aliquam erat volutpat. Curabitur cursus mattis libero,
+				at viverra risus hendrerit quis. Fusce imperdiet tristique tortor non tincidunt. Mauris accumsan urna nec augue feugiat
+				porta. Proin vitae magna in ex malesuada laoreet eget a nulla. Aliquam tristique et elit at consequat. In hac habitasse
+				platea dictumst.</p>
 		</div>
-	</div>
+	</section>
 </body>
 
 </html>
