@@ -1,5 +1,4 @@
 let btn = document.querySelector('.BtnContainer__dropdownbtn');
-const content = document.querySelector('.BtnContainer__DropdownContent');
 
 class btnToObj {
   constructor(element) {
@@ -9,8 +8,8 @@ class btnToObj {
     });
   }
   buttonClick() {
-    content.classList.toggle('BtnContainer--displayNone');
-    content.classList.toggle('BtnContainer--displayBtn');
+    this.element.nextElementSibling.classList.toggle('BtnContainer--displayNone');
+    this.element.nextElementSibling.classList.toggle('BtnContainer--displayBtn');
   }
 }
 btn = new btnToObj(btn);
