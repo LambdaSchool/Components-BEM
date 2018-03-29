@@ -2,14 +2,15 @@
 	padding: 10px;
 	font-size: 12px;
 	border: 2px solid black;
-  background: transparent;
+  	background: transparent;
 }
 
 .Dropdown {
-  position: absolute;
-  padding-top: 20px;
-  padding-left: 20px;
+ 	position: absolute;
+ 	padding-top: 20px;
+ 	padding-left: 20px;
 }
+<<<<<<< HEAD
 
 .Dropdown__items {
   display: none;
@@ -31,3 +32,5 @@
 .Dropdown--display {
   display: block;  
 }
+=======
+>>>>>>> 9b5f74b11e8faf914e97ea89042f54afa368ec03
