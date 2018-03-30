@@ -1,3 +1,5 @@
+let dropdowns = document.querySelector('.Dropdown');
+
 class DropdownMenu {
     constructor(eb) {
         this.element = eb;
@@ -11,16 +13,17 @@ class DropdownMenu {
     }
 }
 
-let dropdowns = document.querySelectorAll('.Dropdown');
 
+
+dropdowns = new DropdownMenu(dropdowns);
+
+
+// dropdowns = Array.from(dropdowns).map((dropdown) => {console.log(dropdowns);
+// })
 
 
 //Testing
 // dropdowns = Array.from(dropdowns).map((dropdown) => new DropdownMenu(dropdown));
-
-//middle is best
-// dropdowns = Array.from(dropdowns).map((dropdown) => {console.log(dropdowns);
-// })
 
 // dropdowns = Array.from(dropdowns).map( (dropdown) => {
 //     console.log(dropdown);
