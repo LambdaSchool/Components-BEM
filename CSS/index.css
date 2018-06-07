@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  min-width: 300px;
+  margin: 0;
+}
+.Header__div {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+.Body {
+  width: 100%;
+  border: 2px solid black;
+}
+.Body__block {
+  width: 49.5%;
+  display: inline-block;
+  border: 2px solid black;
+}
+.Dropdown__menu {
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+.Dropdown__menu-item {
+  border: 1px dashed black;
+  background-color: grey;
+}
+.Display-toggle {
+  display: none;
+}
+.Tabs__item {
+  display: none;
+}
+.Tabs__item-selected {
+  display: block;
+}
+.Tabs__links {
+  left: 0;
+  margin: 20px 0;
+}
+.Tabs__link {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: 10px 10px 10px 0;
+  background-color: gray;
+}
+.Tabs__link-selected {
+  background-color: white;
+  border: solid 1px gray;
+}
