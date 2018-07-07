@@ -1,4 +1,11 @@
 .Box__Section {
     border: 2px solid black;
-    padding: 20px;
+}
+
+.Section__h2 {
+    margin: 12px 10px 0 15px;
+}
+
+.Section__p {
+    margin-left: 15px;
 }
