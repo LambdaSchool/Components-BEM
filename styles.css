@@ -6,3 +6,67 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+.Section {
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.Section__header {
+	width: 100%;
+}
+
+.Section__header h1 {
+	text-align: center;
+}
+
+.Dropdown {
+	position: absolute;
+	border: 2px solid black;
+	padding: 5px 10px;
+	left: 10px;
+	top: 10px;
+}
+
+.DropdownReveal {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	left: 10px;
+	top: 75px;
+	border: 2px solid black;
+	background-color: white;
+}
+
+.display {
+	display: flex;
+}
+
+.DropdownReveal a {
+	padding: 5px;
+	width: 78px;
+}
+
+.Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+.Box {
+	width: 50%;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+@media (max-width: 500px) {
+
+	.Boxes {
+		flex-direction: column;
+	}
+
+	.Box {
+		width: 100%
+	}
+}
