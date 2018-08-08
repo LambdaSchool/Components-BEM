@@ -6,3 +6,71 @@ body {
 	min-width: 300px;
 	margin: 0;
 }
+
+/* Create box enclosing all content */
+.Section {
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+ /* Aligned Header to center */
+ .Section__header h1 {
+	text-align: center;
+}
+
+/* Create border & style surrounding Dropdown button */
+.Dropdown {
+	position: absolute;
+	border: 2px solid black;
+	padding: 0 15px;
+	left: 15px;
+	top: 15px;
+}
+
+/* Hide HTML attributes of Lambda, Google, MDN */
+.DropdownReveal {
+	position: absolute;
+	border: 2px solid black;
+	background-color: white;
+	display: none;
+	flex-direction: column;
+	left: 10px;
+	top: 75px;
+}
+
+/* Format HTML attributes padding & width */
+.DropdownReveal a {
+	padding: 5x;
+	width: 78px;
+}
+
+/* Upon click of button from index.js DropdownReveal will be displayed */
+.display {
+	display: flex;
+}
+
+/* Assigned direction Box within Boxes */
+.Boxes {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Border for Box with Placeholder & Style with width & padding */
+.Box {
+	width: 50%;
+	border: 2px solid black;
+	padding: 0 20px;
+}
+
+/* Create Media Query for Mobile device */
+@media (max-width: 500px) {
+	.Boxes {
+		flex-direction: column;
+	}
+
+	.Box {
+		width: auto;
+	}
+}
