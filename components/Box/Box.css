@@ -1,0 +1,50 @@
+.Box {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.Box__DropdownBtn {
+    display: inline-block;
+    font-size: 17px;
+    height: 55px;
+    margin: 20px 0 0 21px;
+    border: 2px solid black;
+}
+
+.Box__DropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin: 80px 0 0 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 2px black solid;
+}
+
+.Box__Links {
+    display: block;
+    background: hidden;
+    text-align: left;
+    color: black;
+    padding: 12px 20px 12px;
+}
+
+.Box__Links:visited {
+    color: purple;
+}
+
+.Box__Links:hover {
+    color: blue;
+}
+
+.Box__Header {
+    margin-left: 532px;
+    font-size: 37px;
+}
+
+/* Show the dropdown menu */
+.show {
+    display: block;
+}
+
